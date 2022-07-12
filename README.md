@@ -6,7 +6,7 @@ Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website
 
 It contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: 
+The last update to this file was: **12th July, 2022** 
 
 ## Credits
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
