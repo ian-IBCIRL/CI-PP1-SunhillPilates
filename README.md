@@ -4,7 +4,7 @@
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
-It contains some important information about the project, including Gitpod and the extensions we use. 
+It also contains some important information about the project, including Gitpod and the extensions we use. 
 
 The last update to this file was: **12th July, 2022** 
 
