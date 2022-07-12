@@ -8,6 +8,12 @@ It also contains some important information about the project, including Gitpod 
 
 The last update to this file was: **12th July, 2022** 
 
+## Gitpod Reminders
+
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+
+`python3 -m http.server`
+
 ## Credits
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
