@@ -15,7 +15,7 @@ The last update to this file was: **12th July, 2022**
 
 ## Release History
 
-We have continually developed this project to help give you the best experience. 
+I have continually developed this project to help give you the best experience. 
 Here is the version history:
 
 **12th July, 2022** Planning initial project scope in the `README.md` file. A `.gitignore` file is there to make sure unneeded files will not be committed, along with other common files. The Code Institute template now automatically installs MySQL instead of relying on the Gitpod MySQL image. 
@@ -38,7 +38,7 @@ The script only captures the following data:
 - An ID that is randomly generated each time the workspace is started.
 - The current date and time
 - The workspace status of “started” or “running”, which is sent every 5 minutes.
-- any other data we may add to the site logic to further provide services to you.
+- Any other data we may add to the site logic to further provide services to you.
 
 It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. 
 
@@ -48,7 +48,7 @@ We want to tell you this so that we are being completely transparent about the d
 
 **Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let us do so; however if you are unhappy with the idea, simply close the web page and we will not retain the data.
+Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let us do so; however if you are unhappy with the idea, simply close the web page and the data will not be retained.
 
 **Anything more?**
 
