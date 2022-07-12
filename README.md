@@ -4,15 +4,95 @@
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
-It also contains some important information about the project, including Gitpod and the extensions we use. 
+Sunhill Pilates is a site that advertises and informs the audience about a fictional fitness business. The business primarily sells classroom Pilates instruction and also a limited range of smaller classes for one to four people. The site is targeted toward people who want to learn Pilates and commit to their exercise on an ongoing basis. Sunhill Pilates also provides a small number of introductory classes and informational videos for clients and visitors "on the go" or at home. The business also has regular classes with informal gatherings afterwards, for anyone who wants to stay and socialise. People are just getting used to social gatherings again, especially among older clients who may not have the circle of friends from the past. The primary USP is the appeal, satisfaction and quality of the instruction. The site will be useful for people who want to check out the range of classes available, the location and classroom hours, as well as the references of the instructors.
+
+This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
 The last update to this file was: **12th July, 2022** 
 
+## Index – Table of Contents
+* [User Experience (UX) - WIP](#user-experience-ux) 
+* [Features - TBC](#features)
+* [Design - WIP](#design)
+* [Technologies Used - TBC](#technologies-used)
+* [Testing - TBC](#testing)
+* [Deployment - TBC](#deployment)
+* [Credits - WIP](#credits)
+
+## User Experience (UX) - WIP
+
+-   ### User stories
+
+    -   #### A. First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily find where the organisation is located.
+        3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        4. As a First Time Visitor, I want to be able to easily navigate to and view a list of classes, requirements and goals.
+        5. As a First Time Visitor, I want to be able to easily find out more about who is running the business, and figure out any pre-requisites for participating.
+        6. As a First Time Visitor, I want to be able to view sample videos of instruction or pre-requisites.
+
+
+    -   #### B. Returning Visitor Goals
+
+        1. As a Returning Visitor, I want to be able to access and view the menu quickly and easily.
+        2. As a Returning Visitor, I want to be able to check class times quickly and easily.
+        3. As a Returning Visitor, I want to be able to contact the instructor or business owner to ask questions or give feedback.
+        4. As a Returning Visitor, I want to be able to view videos of instruction.
+
+    -   #### C. Frequent User Goals
+        1. As a Frequent User, I want to be able to sign-up easily for more classes, discounts and check on my progress.
+
+## Features
+
+### Existing Features
+
+-   __F01 Navigation Bar__
+
+    - The navigation bar has an initial consistent look and placement on the main page, with all three pages (when completed) of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Menu and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Menu and Contact links move to under the Logo.
+
+- __Fxy Footer__
+
+    - The footer will be featured on all three pages and will be identical on each page making it easy to use.  It will contain three sections :
+
+        - Class Times - by putting the class times in the footer on each page allows the user to quickly and easily find this information and begin planning their participation.
+
+        - Address - the address of this business is important to the user in order for them to plan their use of the services, and get some idea of the quality of the facility and surrounding location for parking etc..
+
+        - Contact Us - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
+
+        - Return Home - the footer also has a link to go back to the top of the current page for ease and speed of navigation back to the top.
+
+## Design - WIP
+
+-   ### Imagery
+    -   I am working to find images to choose that will be eye-catching, informative and bright.  The colours in the images will be chosen to help convey a sense of mindfulness, health and wellbeing. The images will show Pilates participants to align with the main business goal of selling Pilates classes. They will be chosen to ensure the site is clear and easy to use.
+
+-   ### Colour Scheme
+    -  A palette will be chosen to convey a mindful and healthy mood. An image of the palette will be added here.
+
+-   ### Typography
+    -   Google Fonts are being used to import Oswald fonts into assests\css\style.css. 
+
+-   ### Wireframes
+
+    -   #### Main Page Wireframes
+
+	- Images of the main wireframes will be added here.	
+	
+    -   #### Menu Page Wireframes
+
+    -   #### Contact Page Wireframes
+
+## Technologies Used - TBC
+
+## Testing - TBC
+
+## Deployment - TBC
+
 ## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
 
 ## Credits
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
@@ -24,11 +104,13 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 I have continually developed this project to help give you the best experience. 
 Here is the version history:
 
-**12th July, 2022** Planning initial project scope in the `README.md` file. A `.gitignore` file is there to make sure unneeded files will not be committed, along with other common files. The Code Institute template now automatically installs MySQL instead of relying on the Gitpod MySQL image. 
+**12th July, 2022** Planning initial project scope in the `README.md` file. I have also added a basic home page with a header, body and footer. More to follow.
 
 ------
 
 ## FAQ about our data collection
+
+We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality.
 
 **Why do we have data collection?**
 
