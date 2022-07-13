@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|sans-serif&display=swap');
+@media screen {
+   
+}
+
+* {
+   margin:0;
+   padding:0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  }
+
+.container{
+   height: 100vh ;
+   width: 100vw ;
+   overflow-x: hidden;
+   display: flex;
+   flex-wrap: wrap;
+}
 
 /* baseline body styling */
 body{
@@ -6,6 +24,26 @@ body{
     padding:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
+
+header{
+   height: 100px;
+   flex: 1 0 100%;
+   color:rgb(55, 163, 27);
+   background-color: brown;
+}
+section{
+   height: 100px;
+   flex: 1 0 200px;
+   color:rgb(71, 85, 161);
+   background-color: rgb(157, 165, 42);
+}
+
+aside{
+   height: 100px;
+   flex: 1 0 200px;
+   color:rgb(118, 31, 129);
+   background-color: rgb(165, 67, 42);
+}
 
 /* headings styling */ 
 h1 {
@@ -28,7 +66,7 @@ a h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.30em;
     color: rgb(40, 63, 40);
-    height: 1.5em;
+    height: 2em;
  }
  
  /* anchor h1 hover styling */
@@ -43,10 +81,11 @@ a h1 {
     background-color: lightblue ;
     color: rgb(55, 163, 27);
     margin:0;
-    padding:5px 0 5px 0;
+    padding:5px 0 0 0;
     letter-spacing: 10px;
     bottom: 0; 
     left: 0;
+    height: 100px;
     position: absolute;
     width: 100%;
 }
