@@ -17,9 +17,13 @@ The last update to this file was: **13th July, 2022**
 * [Technologies Used - TBC](#technologies-used)
 * [Testing - TBC](#testing)
 * [Deployment - TBC](#deployment)
-* [Credits - WIP](#credits)
+* [Gitpod Reminders](#gitpod-reminders)
+* [Credits](#credits)
+* [Release History](#release-history)
+* [Data Privacy](#data-privacy)
 
-## User Experience (UX) - WIP
+## User Experience (UX)
+## - WIP
 
 -   ### User stories
 
@@ -82,7 +86,7 @@ The last update to this file was: **13th July, 2022**
     - A 'Contact via Whatsapp' option or QR code may also be helpful.
 
 
-## Design - WIP
+## Design
 
 -   ### Imagery
     -   I am working to find images to choose that will be eye-catching, informative and bright.  The colours in the images will be chosen to help convey a sense of mindfulness, health and wellbeing. The images will show Pilates participants to align with the main business goal of selling Pilates classes. They will be chosen to ensure the site is clear and easy to use.
@@ -127,6 +131,7 @@ Here is the version history:
 
 ------
 
+## Data Privacy
 ## FAQ about our data collection
 
 We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality.
