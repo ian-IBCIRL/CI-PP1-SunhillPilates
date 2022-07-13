@@ -104,6 +104,8 @@ The last update to this file was: **13th July 2022**
 -   ### Imagery
     -   I am working to find images to choose that will be eye-catching, informative and bright.  The colours in the images will be chosen to help convey a sense of mindfulness, health and wellbeing. The images will show Pilates participants to align with the main business goal of selling Pilates classes. They will be chosen to ensure the site is clear and easy to use.
 
+    - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
+
 -   ### Colour Scheme
     -  A palette will be chosen to convey a mindful and healthy mood. An image of the palette will be added here.
 
