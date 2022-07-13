@@ -1,29 +1,30 @@
-## Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates
+## About my project
+## Code Institute Portfolio Project 1 covering HTML and CSS 
+## Website for Sunhill Pilates
 
 <h1 align="center">Sunhill Pilates Website</h1>
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
-Sunhill Pilates is a site that advertises and informs the audience about a fictional fitness business. The business primarily sells classroom Pilates instruction and also a limited range of smaller classes for one to four people. The site is targeted toward people who want to learn Pilates and commit to their exercise on an ongoing basis. Sunhill Pilates also provides a small number of introductory classes and informational videos for clients and visitors "on the go" or at home. The business also has regular classes with informal gatherings afterwards, for anyone who wants to stay and socialise. People are just getting used to social gatherings again, especially among older clients who may not have the circle of friends from the past. The primary USP is the appeal, satisfaction and quality of the instruction. The site will be useful for people who want to check out the range of classes available, the location and classroom hours, as well as the references of the instructors.
+Sunhill Pilates is a site that advertises and informs the audience about a fictitious fitness business. The business primarily sells classroom Pilates instruction and also a limited range of smaller classes for one to four people. The site is targeted toward people who want to learn Pilates and commit to their exercise on an ongoing basis. Sunhill Pilates also provides a small number of introductory classes and informational videos for clients and visitors "on the go" or at home. The business also has regular classes with informal gatherings afterwards, for anyone who wants to stay and socialise. People are just getting used to social gatherings again, especially among older clients who may not have the circle of friends from the past. The primary USP is the appeal, satisfaction and quality of the instruction. The site will be useful for people who want to check out the range of classes available, the location and classroom hours, as well as the references of the instructors.
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
 The last update to this file was: **13th July, 2022** 
 
-## Index – Table of Contents
+## Index
 * [User Experience (UX) - WIP](#user-experience-ux) 
-* [Features - TBC](#features)
+* [Features - WIP](#features)
 * [Design - WIP](#design)
 * [Technologies Used - TBC](#technologies-used)
 * [Testing - TBC](#testing)
 * [Deployment - TBC](#deployment)
 * [Gitpod Reminders](#gitpod-reminders)
-* [Credits](#credits)
-* [Release History](#release-history)
-* [Data Privacy](#data-privacy)
+* [Credits - WIP](#credits)
+* [Release History - WIP](#release-history)
+* [Data Privacy - WIP](#data-privacy)
 
 ## User Experience (UX)
-## - WIP
 
 -   ### User stories
 
@@ -48,6 +49,9 @@ The last update to this file was: **13th July, 2022**
         1. As a Frequent User, I want to be able to sign-up easily for more classes, discounts and check on my progress.
 
 ## Features
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
+
 
 ### Existing Features
 
@@ -74,6 +78,8 @@ The last update to this file was: **13th July, 2022**
 	- insert chart here 
 
 ### Future Features 
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 - __Timeline__
     - A 'Timeline' page could be added to provide more information experience and certification of the instructor(s) for clients who would like to know more about the origins of the business, its values and its interaction with the community.
@@ -87,6 +93,8 @@ The last update to this file was: **13th July, 2022**
 
 
 ## Design
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 -   ### Imagery
     -   I am working to find images to choose that will be eye-catching, informative and bright.  The colours in the images will be chosen to help convey a sense of mindfulness, health and wellbeing. The images will show Pilates participants to align with the main business goal of selling Pilates classes. They will be chosen to ensure the site is clear and easy to use.
@@ -108,21 +116,34 @@ The last update to this file was: **13th July, 2022**
     -   #### Contact Page Wireframes
 
 ## Technologies Used - TBC
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 ## Testing - TBC
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 ## Deployment - TBC
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 ## Gitpod Reminders
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
 
 ## Credits
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 ------
 
 ## Release History
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 I have continually developed this project to help give you the best experience. 
 Here is the version history:
@@ -133,6 +154,8 @@ Here is the version history:
 
 ## Data Privacy
 ## FAQ about our data collection
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality.
 
