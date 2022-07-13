@@ -69,7 +69,7 @@ The last update to this file was: **13th July, 2022**
 
 	- insert chart here 
 
-### Features which could be implemented in the future
+### Future Features 
 
 - __Timeline__
     - A 'Timeline' page could be added to provide more information experience and certification of the instructor(s) for clients who would like to know more about the origins of the business, its values and its interaction with the community.
