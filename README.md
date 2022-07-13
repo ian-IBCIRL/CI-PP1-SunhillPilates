@@ -10,7 +10,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **13th July, 2022** 
+The last update to this file was: **13th July 2022** 
 
 ## Index
 * [User Experience (UX) - WIP](#user-experience-ux) 
