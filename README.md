@@ -157,6 +157,8 @@ Here is the version history:
 
 **12th July, 2022** Planning initial project scope in the `README.md` file. I have also added a basic home page with a header, body and footer. More to follow.
 
+**13th July, 2022** Updating `README.md` file with navigation, privacy and design additons. Flexbox iterative development and aside added for consideration.
+
 ------
 
 ## Data Privacy
