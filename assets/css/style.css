@@ -4,12 +4,12 @@
 body{
     margin:1em;
     padding:0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
 
 /* headings styling */
 h1 {
-   font-family: Oswald, sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
    color: orange;
    text-align: center;
@@ -25,23 +25,23 @@ a {
 a h1 {
     text-align: center;
     text-decoration: none;
-    font-family: Oswald, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.30em;
-    color: blue;
+    color: rgb(40, 63, 40);
     height: 1.5em;
  }
  
  /* anchor h1 hover styling */
  a h1:hover {
-    font-family: Oswald, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.20em;
     color: red;
  }
  
  footer{
     text-align: center;
-    background-color: lightblue;
-    color: white;
+    background-color: red;
+    color: rgb(55, 163, 27);
     margin:0;
     padding:5px 0 5px 0;
     letter-spacing: 10px;
