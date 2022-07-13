@@ -87,6 +87,9 @@ The last update to this file was: **13th July 2022**
 - __Video Playback__
     - A 'Video Playback' page could be added to provide sample videos and actual class content for clients on the go or working from home or under lockdown. Some content would only be accessible to registered clients with a current subscription.
 
+- __Privacy/Security__
+    - A 'Security' page could be added to provide commonly expected assurances to clients. Some content would only be accessible to registered clients with a current subscription, so it would eventually me necessary to collect more identifying information for legitimate use cases, as expected by GDPR and other related legislation, in various jurisdictions. All subsequent information sent to the client will have the option to opt out, delete personally identifiable information, access account information for a subject access request, and delete the account on request.
+
 - __Navigation bar improvements__
     - The functionality of the navigation bar will be extended to make it available to the user without scrolling.
     - A 'Contact via Whatsapp' option or QR code may also be helpful.
@@ -157,7 +160,9 @@ Here is the version history:
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
-We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality.
+I would add something like the following to a security/privacy page for the site.
+
+"We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality."
 
 **Why do we have data collection?**
 
@@ -168,11 +173,11 @@ It will help us decide on the future direction of our services.
 
 For everyday usage of our site, it doesn’t have any effect at all. 
 
-The script only captures the following data:
+The site only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
+- An ID that is randomly generated each time the site is loaded.
 - The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- The page status of “started” or “in-use”, which is sent every 5 minutes.
 - Any other data we may add to the site logic to further provide services to you.
 
 It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. 
@@ -183,7 +188,7 @@ We want to tell you this so that we are being completely transparent about the d
 
 **Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let us do so; however if you are unhappy with the idea, simply close the web page and the data will not be retained.
+Yes, you can. Initially no personally identifiable information is being captured, but we'd appreciate it if you let us do so (for "legitimate use" cases only), in due course; however if you are unhappy with the idea, simply close the web page and the data will not be retained.
 
 **Anything more?**
 
