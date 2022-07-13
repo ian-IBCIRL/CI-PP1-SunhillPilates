@@ -8,7 +8,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **12th July, 2022** 
+The last update to this file was: **13th July, 2022** 
 
 ## Index – Table of Contents
 * [User Experience (UX) - WIP](#user-experience-ux) 
@@ -62,6 +62,25 @@ The last update to this file was: **12th July, 2022**
         - Contact Us - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
 
         - Return Home - the footer also has a link to go back to the top of the current page for ease and speed of navigation back to the top.
+
+- __How the features correlate with the User Stories__
+
+    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F0X ** CHANGE FOR PUSH.  The chart below shows how the user stories correlate to features, showing features that support the user stories.
+
+	- insert chart here 
+
+### Features which could be implemented in the future
+
+- __Timeline__
+    - A 'Timeline' page could be added to provide more information experience and certification of the instructor(s) for clients who would like to know more about the origins of the business, its values and its interaction with the community.
+
+- __Video Playback__
+    - A 'Video Playback' page could be added to provide sample videos and actual class content for clients on the go or working from home or under lockdown. Some content would only be accessible to registered clients with a current subscription.
+
+- __Navigation bar improvements__
+    - The functionality of the navigation bar will be extended to make it available to the user without scrolling.
+    - A 'Contact via Whatsapp' option or QR code may also be helpful.
+
 
 ## Design - WIP
 
