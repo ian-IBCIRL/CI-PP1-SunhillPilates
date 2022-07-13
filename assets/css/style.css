@@ -32,17 +32,19 @@ header{
    background-color: brown;
 }
 section{
-   height: 100px;
+   height: 100%;
    flex: 1 0 200px;
    color:rgb(71, 85, 161);
    background-color: rgb(157, 165, 42);
+   margin: 5px;
 }
 
 aside{
-   height: 100px;
+   height: 100%;
    flex: 1 0 200px;
    color:rgb(118, 31, 129);
    background-color: rgb(165, 67, 42);
+   margin: 5px;
 }
 
 /* headings styling */ 
@@ -80,7 +82,7 @@ a h1 {
     text-align: center;
     background-color: lightblue ;
     color: rgb(55, 163, 27);
-    margin:0;
+    margin:5px;
     padding:5px 0 0 0;
     letter-spacing: 10px;
     bottom: 0; 
