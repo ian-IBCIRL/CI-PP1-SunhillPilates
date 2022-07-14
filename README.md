@@ -12,7 +12,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **13th July 2022** 
+The last update to this file was: **14th July 2022** 
 
 ## Index
 * [User Experience (UX) - WIP](#user-experience-ux) 
@@ -20,7 +20,7 @@ The last update to this file was: **13th July 2022**
 * [Design - WIP](#design)
 * [Technologies Used - TBC](#technologies-used)
 * [Testing - TBC](#testing)
-* [Deployment - TBC](#deployment)
+* [Deployment - WIP](#deployment)
 * [Gitpod Reminders](#gitpod-reminders)
 * [Credits - WIP](#credits)
 * [Release History - WIP](#release-history)
@@ -134,6 +134,20 @@ The last update to this file was: **13th July 2022**
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
+### How this site was deployed
+In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu.
+From the source section drop-down menu, select the Master Branch.
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+Any changes pushed to the master branch will take effect on the live project.
+
+The live link can be found here - https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/
+
+### How to clone the repository
+Go to the https://github.com/ian-IBCIRL/CI-PP1-SunhillPilates repository on GitHub.
+Click the "Code" button to the right of the screen, click HTTPs and copy the link there.
+Open a GitBash terminal and navigate to the directory where you want to locate the clone.
+On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process.
+
 ## Gitpod Reminders
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
@@ -158,6 +172,8 @@ Here is the version history:
 **12th July, 2022** Planning initial project scope in the `README.md` file. I have also added a basic home page with a header, body and footer. More to follow.
 
 **13th July, 2022** Updating `README.md` file with navigation, privacy and design additons. Flexbox iterative development and aside added for consideration.
+
+**14th July, 2022** Updating `README.md` file with deployment and cloing info.
 
 ------
 
