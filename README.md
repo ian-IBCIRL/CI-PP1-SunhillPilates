@@ -130,7 +130,7 @@ The last update to this file was: **14th July 2022**
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
-## Deployment - TBC
+## Deployment
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
