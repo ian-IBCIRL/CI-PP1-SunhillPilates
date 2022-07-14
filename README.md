@@ -160,6 +160,10 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+    - Elaine B Roche and her Code Institute project - https://github.com/elainebroche-dev/ms1-thrive
+    - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
+
+
 ------
 
 ## Release History
