@@ -115,19 +115,19 @@ The last update to this file was: **15th July 2022**
 -   ### Wireframes
 
 <details><summary>Home</summary>
-<img src="docs/wireframes/wireframes-homepage.png">
+<img src="assets/images/wireframes-homepage.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/wireframes/wireframes-classes.png">
+<img src="assets/images/wireframes-classes.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframes/wireframes-contact.png">
+<img src="assets/images/wireframes-contact.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/wireframes-about.png">
+<img src="assets/images/wireframes-homepage.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/wireframes/wireframes-gallery.png">
+<img src="assets/images/wireframes-homepage.png">
 </details>
 
 ## Technologies Used - TBC
