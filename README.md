@@ -182,7 +182,7 @@ Here is the version history:
 
 **13th July, 2022** Updating `README.md` file with navigation, privacy and design additons. Flexbox iterative development and aside added for consideration.
 
-**15th July, 2022** Updating `README.md` file with deployment, cloning and credits info. First pass at Media settings defined.
+**15th July, 2022** Updating `README.md` file with deployment, cloning and credits info. Menu to required site pages added (Classes & Contact). First pass at Media settings defined.
 
 ------
 
