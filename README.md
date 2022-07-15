@@ -117,7 +117,7 @@ The last update to this file was: **15th July 2022**
 <details><summary>Home</summary>
 <img src="assets/images/wireframes-homepage.png">
 </details>
-<details><summary>Menu</summary>
+<details><summary>Classes</summary>
 <img src="assets/images/wireframes-classes.png">
 </details>
 <details><summary>Contact</summary>
