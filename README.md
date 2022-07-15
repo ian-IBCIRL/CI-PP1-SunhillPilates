@@ -114,13 +114,21 @@ The last update to this file was: **15th July 2022**
 
 -   ### Wireframes
 
-    -   #### Main Page Wireframes
-
-	- Images of the main wireframes will be added here.	
-	
-    -   #### Menu Page Wireframes
-
-    -   #### Contact Page Wireframes
+<details><summary>Home</summary>
+<img src="docs/wireframes/wireframes-homepage.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/wireframes/wireframes-classes.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/wireframes-contact.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/wireframes-about.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/wireframes-gallery.png">
+</details>
 
 ## Technologies Used - TBC
 * [Back to index](#index) 
