@@ -26,17 +26,22 @@ body{
    }
 
 header{
-   height: 100px;
+   height: 150px;
    flex: 1 0 100%;
    color:rgb(55, 163, 27);
    background-color: brown;
 }
+
+nav {
+   padding: 20px;
+}
+
 section{
    height: 100%;
    flex: 1 0 200px;
    color:rgb(71, 85, 161);
    background-color: rgb(157, 165, 42);
-   margin: 5px;
+   margin: 20px;
 }
 
 aside{
@@ -44,11 +49,46 @@ aside{
    flex: 1 0 200px;
    color:rgb(118, 31, 129);
    background-color: rgb(165, 67, 42);
-   margin: 5px;
+   margin: 20px;
+}
+
+
+#menu {
+   font-size: 125%;
+   font-weight: 500;
+   letter-spacing: 0.25rem;
+}
+
+#menu,
+#logo {
+   line-height: 5rem;
+}
+
+#menu li {
+   float: left;
+   list-style-type: none;
+   margin-right: 1.6rem;
+
+}
+
+#menu a {
+   text-decoration: none;
+   color: inherit;
+}
+
+#menu a:hover {
+   border-bottom: 0.05rem solid green;
 }
 
 /* headings styling */ 
 h1 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 0.30em;
+   color: orange;
+   text-align: center;
+}
+
+h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
    color: orange;
@@ -77,6 +117,7 @@ a h1 {
     letter-spacing: 0.20em;
     color: red;
  }
+
  
  footer{
     text-align: center;
@@ -90,4 +131,80 @@ a h1 {
     height: 100px;
     position: absolute;
     width: 100%;
+}
+
+/* Screen sizes from 1200px wide or above */
+@media screen {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: .75rem;
+      margin-bottom: .75rem;
+      line-height: .50rem;
+      width: 100%;
+   }
+}
+
+/* Screen sizes from 1200px wide or below */
+@media screen and (max-width: 1200px) {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: .75rem;
+      margin-bottom: .75rem;
+      line-height: .50rem;
+      width: 95%;
+   }
+}
+
+/* Screen sizes from 700px wide or below */
+@media screen and (max-width: 700px) {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 1.25rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.50rem;
+      width: 90%;
+   }
+}
+   
+/* Screen sizes from 430px wide or below */
+@media screen and (max-width: 430px) {
+   * {
+      font-size: 1rem; 
+   }
+
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 2.25rem;
+      margin-bottom: 2.25rem;
+      line-height: 2.50rem;
+      width: 80%;
+   }
+
+   header{
+      height: 180px;
+   }
+}
+
+/* Screen sizes from 290px wide or below */
+@media screen and (max-width: 290px) {
+   * {
+      font-size: 1rem; 
+   }
+
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 2.25rem;
+      margin-bottom: 2.25rem;
+      line-height: 2.50rem;
+      width: 80%;
+   }
+
+   header{
+      height: 220px;
+   }
 }

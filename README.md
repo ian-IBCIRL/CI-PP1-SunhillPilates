@@ -12,7 +12,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **14th July 2022** 
+The last update to this file was: **15th July 2022** 
 
 ## Index
 * [User Experience (UX) - WIP](#user-experience-ux) 
@@ -59,7 +59,7 @@ The last update to this file was: **14th July 2022**
 
 -   __F01 Navigation Bar__
 
-    - The navigation bar has an initial consistent look and placement on the main page, with all three pages (when completed) of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Menu and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Menu and Contact links move to under the Logo.
+    - The navigation bar has an initial consistent look and placement on the main page, with all three pages (when completed) of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Classes and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Classes and Contact links move to under the Logo.
 
 - __Fxy Footer__
 
@@ -182,7 +182,7 @@ Here is the version history:
 
 **13th July, 2022** Updating `README.md` file with navigation, privacy and design additons. Flexbox iterative development and aside added for consideration.
 
-**14th July, 2022** Updating `README.md` file with deployment and cloing info.
+**15th July, 2022** Updating `README.md` file with deployment, cloning and credits info. First pass at Media settings defined.
 
 ------
 
