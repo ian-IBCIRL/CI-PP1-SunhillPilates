@@ -10,7 +10,7 @@
  
   }
 
-.container{
+.containerz{
    height: 100vh ;
    width: 100vw ;
    overflow-x: hidden;
@@ -80,7 +80,7 @@ aside{
    border-bottom: 0.05rem solid green;
 }
 
-/* headings styling */ 
+/* headings styling  */
 h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
@@ -108,7 +108,7 @@ a h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.30em;
     color: rgb(40, 63, 40);
-    height: 2em;
+    height: 3rem;
  }
  
  /* anchor h1 hover styling */
@@ -180,7 +180,7 @@ a h1 {
       float: left;
       margin-left: 2.25rem;
       margin-bottom: 2.25rem;
-      line-height: 2.50rem;
+      line-height: 1.50rem;
       width: 80%;
    }
 
@@ -192,7 +192,7 @@ a h1 {
 /* Screen sizes from 290px wide or below */
 @media screen and (max-width: 290px) {
    * {
-      font-size: 1rem; 
+      font-size: 0.5rem; 
    }
 
    #menu {
@@ -200,7 +200,7 @@ a h1 {
       float: left;
       margin-left: 2.25rem;
       margin-bottom: 2.25rem;
-      line-height: 2.50rem;
+      line-height: 1.50rem;
       width: 80%;
    }
 
