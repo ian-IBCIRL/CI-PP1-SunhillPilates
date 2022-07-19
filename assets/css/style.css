@@ -39,8 +39,8 @@ nav {
 section{
    height: 100%;
    flex: 1 0 200px;
-   color:rgb(71, 85, 161);
-   background-color: rgb(157, 165, 42);
+   color:rgb(71, 161, 144);
+   background-color: rgb(85, 87, 50);
    margin: 10px 10px 10px 0;
 }
 
@@ -123,7 +123,7 @@ a h1 {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.30em;
-    color: rgb(40, 63, 40);
+    color: rgb(104, 102, 133);
     height: 3rem;
  }
  
@@ -228,7 +228,7 @@ footer{
    font-weight: 600;
    letter-spacing: 0.07rem;
    font-size: 120%;
-   background-color: var(--panelorange);
+   background-color: orange;
    border-radius: 10px;
    padding: 1.8rem;
    height: 40rem;
@@ -296,13 +296,13 @@ footer{
 .button {
    background-color: darkmagenta;
    border: none;
-   color: whitesmoke;
+   color: white;
    padding: 1rem;
    text-align: center;
    width: 75%; 
    text-decoration: none;
    display: inline-block;
-   font-size: 1rem;
+   font-size: 1.3rem;
    border-radius: 10px;
    font-weight: bold;
    box-shadow: 0.3rem 0.6rem red;
