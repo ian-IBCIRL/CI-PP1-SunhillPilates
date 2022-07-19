@@ -297,14 +297,15 @@ footer{
    background-color: darkmagenta;
    border: none;
    color: whitesmoke;
-   padding: 1.25rem;
+   padding: 1rem;
    text-align: center;
+   width:fit-content;
    text-decoration: none;
    display: inline-block;
-   font-size: 1.25rem;
+   font-size: 1rem;
    border-radius: 10px;
    font-weight: bold;
-   box-shadow: 0.3rem 0.6rem darkgray;
+   box-shadow: 0.3rem 0.6rem red;
    margin-top: 1.9rem;
 }
 
