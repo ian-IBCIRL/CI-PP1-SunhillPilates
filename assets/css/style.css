@@ -20,8 +20,8 @@
 
 /* baseline body styling */
 body{
-    margin:1em;
-    padding:0;
+   margin:1em 1em 1em 1em;
+    padding:0 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
 
@@ -33,7 +33,7 @@ header{
 }
 
 nav {
-   padding: 20px;
+   padding: 10px;
 }
 
 section{
@@ -41,7 +41,7 @@ section{
    flex: 1 0 200px;
    color:rgb(71, 85, 161);
    background-color: rgb(157, 165, 42);
-   margin: 20px;
+   margin: 10px 10px 10px 0;
 }
 
 aside{
@@ -49,7 +49,7 @@ aside{
    flex: 1 0 200px;
    color:rgb(118, 31, 129);
    background-color: rgb(165, 67, 42);
-   margin: 20px;
+   margin: 10px 25px 0 0;
 }
 
 
@@ -68,7 +68,6 @@ aside{
    float: left;
    list-style-type: none;
    margin-right: 1.6rem;
-
 }
 
 #menu a {
@@ -78,6 +77,20 @@ aside{
 
 #menu a:hover {
    border-bottom: 0.05rem solid green;
+}
+
+#classmenu li {
+   list-style-type: none;
+   margin-left: 1rem;
+}   
+
+#classmenu a {
+   text-decoration: none;
+   color: inherit;
+}
+
+#classmenu a:hover {
+   border-bottom: 0.1rem solid green;
 }
 
 /* headings styling  */
@@ -167,13 +180,17 @@ a h1 {
       line-height: 1.50rem;
       width: 90%;
    }
+   h1 {
+      font-size: 150% ;
+   }
+   h2 {
+      font-size: medium;
+   }
 }
    
 /* Screen sizes from 430px wide or below */
 @media screen and (max-width: 430px) {
-   * {
-      font-size: 1rem; 
-   }
+   
 
    #menu {
       clear: left;
@@ -191,9 +208,6 @@ a h1 {
 
 /* Screen sizes from 290px wide or below */
 @media screen and (max-width: 290px) {
-   * {
-      font-size: 0.5rem; 
-   }
 
    #menu {
       clear: left;
@@ -202,9 +216,146 @@ a h1 {
       margin-bottom: 2.25rem;
       line-height: 1.50rem;
       width: 80%;
+      position: absolute ;
    }
-
    header{
-      height: 220px;
+      height: 250px;
    }
 }
+}
+
+
+#footer-group {
+   width: 44rem;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 1.9rem;
+}
+
+#footer-left-panel {
+   float: left;
+   text-align: left;
+}
+
+#footer-right-panel {
+   float: right;
+   text-align: left;
+}
+
+#footer-center-panel {
+   display: inline-block;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.footer-text {
+   font-size: 90%;
+   font-weight: 600;
+}
+
+#opening-times li {
+   list-style-type: none;
+}
+
+.social-networks {
+   text-align: left;
+}
+
+.social-networks>li {
+   display: inline;
+}
+
+.social-networks i {
+   font-size: 200%;
+   margin: 0.5rem;
+   color: grey;
+   text-decoration: none;
+}
+
+
+/* styling for the contact form */
+#contact-section {
+   background-image: url("../images/mat-pexels-alexy-almond-3756527.jpg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
+   min-height: 57rem;
+}
+
+#contact-panel-container {
+   width: 75rem;
+   margin: 4.7rem auto;
+}
+
+.contact-panel {
+   text-align: left;
+   font-weight: 600;
+   letter-spacing: 0.07rem;
+   font-size: 120%;
+   background-color: var(--panelorange);
+   border-radius: 10px;
+   padding: 1.8rem;
+   height: 40rem;
+}
+
+.contact-panel h2 {
+   text-transform: uppercase;
+   font-size: 180%;
+   padding-bottom: 1.25rem;
+}
+
+#contact-panel-left {
+   width: 25rem;
+   float: left;
+}
+
+#contact-panel-right {
+   width: 37.5rem;
+   float: right;
+}
+
+.text-input {
+   background: gray;
+   font-family: Oswald, sans-serif;
+   font-size: 100%;
+   font-weight: 700;
+   width: 100%;
+   margin: 0.3rem 0 1.3rem 0;
+   border: 0.07rem solid darkolivegreen;
+   border-radius: 2px;
+   padding: 0.3rem;
+   letter-spacing: 0.07rem;
+}
+
+.text-input:hover {
+   border-color: yellow);
+}
+
+.text-input-line {
+   height: 1.6rem;
+}
+
+.text-input-box {
+   height: 9.4rem;
+   resize: none;
+}
+
+.radio-label {
+   margin-right: 0.6rem;
+}
+
+#location-map {
+   width: 100%;
+   height: 22rem;
+}
+
+#location-iframe {
+   width: 100%;
+   height: 100%;
+   border: none;
+   scroll-behavior: unset;
+   margin: 0;
+}
+
