@@ -112,6 +112,8 @@ h2 {
 /* anchor styling */
 a {
     text-decoration: none;
+    height: 40px;
+    width: 40px;
 }
 
 
@@ -147,7 +149,7 @@ footer{
     left: 0;
     height: 150px;
     position: relative;
-    width: 100%;
+   width: 100%;
 }
 
 #footer-group {
@@ -191,16 +193,18 @@ footer{
    text-align: left;
 }
 
-.social-networks>li {
+
+.social-networks > li {
    display: inline;
 }
 
-.social-networks i {
+
+.social-networks  i {
    font-size: 200%;
    margin: 0.5rem;
-   color: grey;
-   text-decoration: none;
-}
+   color: blue;
+   /* text-decoration: none;*/
+} 
 
 
 /* styling for the contact form */

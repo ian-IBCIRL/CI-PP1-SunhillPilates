@@ -179,6 +179,7 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 -   ### Images
     - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
     - Pilates images https://www.pexels.com/ 
+    - favicon.ico generation https://favicon.io/favicon-generator/
 
 -   ### Video
     - Social media video from https://www.facebook.com/watch/mindfulpilatesjune/ 
