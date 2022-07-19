@@ -299,7 +299,7 @@ footer{
    color: whitesmoke;
    padding: 1rem;
    text-align: center;
-   width:fit-content;
+   width: 75%; 
    text-decoration: none;
    display: inline-block;
    font-size: 1rem;
