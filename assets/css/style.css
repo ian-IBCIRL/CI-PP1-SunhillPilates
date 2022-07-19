@@ -130,9 +130,8 @@ a h1 {
     letter-spacing: 0.20em;
     color: red;
  }
-
  
- footer{
+footer{
     text-align: center;
     background-color: lightblue ;
     color: rgb(55, 163, 27);
@@ -141,96 +140,22 @@ a h1 {
     letter-spacing: 10px;
     bottom: 0; 
     left: 0;
-    height: 100px;
-    position: absolute;
+    height: 150px;
+    position: relative;
     width: 100%;
 }
 
-/* Screen sizes from 1200px wide or above */
-@media screen {
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: .75rem;
-      margin-bottom: .75rem;
-      line-height: .50rem;
-      width: 100%;
-   }
-}
-
-/* Screen sizes from 1200px wide or below */
-@media screen and (max-width: 1200px) {
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: .75rem;
-      margin-bottom: .75rem;
-      line-height: .50rem;
-      width: 95%;
-   }
-}
-
-/* Screen sizes from 700px wide or below */
-@media screen and (max-width: 700px) {
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: 1.25rem;
-      margin-bottom: 1.25rem;
-      line-height: 1.50rem;
-      width: 90%;
-   }
-   h1 {
-      font-size: 150% ;
-   }
-   h2 {
-      font-size: medium;
-   }
-}
-   
-/* Screen sizes from 430px wide or below */
-@media screen and (max-width: 430px) {
-   
-
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: 2.25rem;
-      margin-bottom: 2.25rem;
-      line-height: 1.50rem;
-      width: 80%;
-   }
-
-   header{
-      height: 180px;
-   }
-}
-
-/* Screen sizes from 290px wide or below */
-@media screen and (max-width: 290px) {
-
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: 2.25rem;
-      margin-bottom: 2.25rem;
-      line-height: 1.50rem;
-      width: 80%;
-      position: absolute ;
-   }
-   header{
-      height: 250px;
-   }
-}
-}
-
-
 #footer-group {
-   width: 44rem;
-   margin: 0 auto;
    text-align: center;
    padding-top: 1.9rem;
 }
+
+#disclaimer {
+   clear: both;
+   text-align: center;
+   padding: 1.8rem;
+}
+
 
 #footer-left-panel {
    float: left;
@@ -253,7 +178,7 @@ a h1 {
    font-weight: 600;
 }
 
-#opening-times li {
+#classroom-times li {
    list-style-type: none;
 }
 
@@ -330,7 +255,7 @@ a h1 {
 }
 
 .text-input:hover {
-   border-color: yellow);
+   border-color: yellow ;
 }
 
 .text-input-line {
@@ -357,5 +282,102 @@ a h1 {
    border: none;
    scroll-behavior: unset;
    margin: 0;
+}
+
+.button {
+   background-color: darkmagenta;
+   border: none;
+   color: whitesmoke;
+   padding: 1.25rem;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1.25rem;
+   border-radius: 10px;
+   font-weight: bold;
+   box-shadow: 0.3rem 0.6rem darkgray;
+   margin-top: 1.9rem;
+}
+
+.button:hover {
+   background-color: lightpink;
+}
+
+
+/* Screen sizes from 1200px wide or above */
+@media screen {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: .75rem;
+      margin-bottom: .75rem;
+      line-height: .50rem;
+      width: 100%;
+   }
+}
+
+/* Screen sizes from 1200px wide or below */
+@media screen and (max-width: 1200px) {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: .75rem;
+      margin-bottom: .75rem;
+      line-height: .50rem;
+      width: 95%;
+   }
+}
+
+/* Screen sizes from 700px wide or below */
+@media screen and (max-width: 700px) {
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 1.25rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.50rem;
+      width: 90%;
+   }
+   h1 {
+      font-size: 150% ;
+   }
+   h2 {
+      font-size: medium;
+   }
+}
+   
+/* Screen sizes from 430px wide or below */
+@media screen and (max-width: 430px) {
+   
+
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 2.25rem;
+      margin-bottom: 2.25rem;
+      line-height: 1.50rem;
+      width: 80%;
+   }
+
+   header{
+      height: 180px;
+   }
+}
+
+/* Screen sizes from 290px wide or below */
+@media screen and (max-width: 290px) {
+
+   #menu {
+      clear: left;
+      float: left;
+      margin-left: 2.25rem;
+      margin-bottom: 2.25rem;
+      line-height: 1.50rem;
+      width: 80%;
+      position: absolute ;
+   }
+   header{
+      height: 250px;
+   }
 }
 
