@@ -47,9 +47,10 @@ section{
 aside{
    height: 100%;
    flex: 1 0 200px;
-   color:rgb(118, 31, 129);
-   background-color: rgb(165, 67, 42);
+   color:white;
+   background-color: rgb(118, 31, 129);
    margin: 10px 25px 0 0;
+
 }
 
 
@@ -131,6 +132,10 @@ a h1 {
     color: red;
  }
  
+asideone{
+
+}
+
 footer{
     text-align: center;
     background-color: lightblue ;

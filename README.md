@@ -173,10 +173,20 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
     - Elaine B Roche and her Code Institute project - https://github.com/elainebroche-dev/ms1-thrive
     - Code Institute tutors, mentors and colleagues in Slack channels.
     - Bootstrap documentation https://getbootstrap.com/docs/4.6/getting-started/introduction/ 
-
+    - Embedding video https://developers.facebook.com/docs/plugins/embedded-video-player/# 
+    - Posting to an iframe https://stackoverflow.com/questions/168455/how-do-you-post-to-an-iframe 
 
 -   ### Images
     - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
+    - Pilates images https://www.pexels.com/ 
+
+-   ### Video
+    - Social media video from https://www.facebook.com/watch/mindfulpilatesjune/ 
+
+-   ### About Pilates
+    - About Pilates https://Mindfulpilates.ie (permission granted by, and credit to my wife June)
+    - What to wear and how to participate https://www.verywellfit.com/prepare-for-a-beginning-pilates-class-2704429#toc-etiquette-for-pilates-classesdos-and-donts 
+
 
 
 ------
