@@ -134,8 +134,8 @@ a h1 {
     color: red;
  }
  
-asideone{
-
+aside-one{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{
@@ -291,6 +291,24 @@ footer{
    border: none;
    scroll-behavior: unset;
    margin: 0;
+}
+
+#classvideo{
+   margin:5px;
+   padding:10px;
+   border: 10px 10px 10px 10px;
+   letter-spacing: 10px;
+   bottom: 0; 
+   left: 0;
+   height: 50rem;
+   position: relative;
+   width: 100%;
+}
+
+#video-iframe{
+   width: 100%;
+   height: 100%;
+   margin: 0;  
 }
 
 .button {
