@@ -8,6 +8,8 @@ Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website
 
 See here for the current website: https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/
 
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type: `python3 -m http.server`
+
 Sunhill Pilates is a site that advertises and informs the audience about a fictitious fitness business. The business primarily sells classroom Pilates instruction and also a limited range of smaller classes for one to four people. The site is targeted toward people who want to learn Pilates and commit to their exercise on an ongoing basis. Sunhill Pilates also provides a small number of introductory classes and informational videos for clients and visitors "on the go" or at home. The business also has regular classes with informal gatherings afterwards, for anyone who wants to stay and socialise. People are just getting used to social gatherings again, especially among older clients who may not have the circle of friends from the past. The primary USP is the appeal, satisfaction and quality of the instruction. The site will be useful for people who want to check out the range of classes available, the location and classroom hours, as well as the references of the instructors.
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
@@ -87,7 +89,7 @@ The last update to this file was: **15th July 2022**
     - A 'Timeline' page could be added to provide more information experience and certification of the instructor(s) for clients who would like to know more about the origins of the business, its values and its interaction with the community.
 
 - __Video Playback__
-    - A 'Video Playback' page could be added to provide sample videos and actual class content for clients on the go or working from home or under lockdown. Some content would only be accessible to registered clients with a current subscription.
+    - A 'Video Playback' page could be added to provide further sample videos and actual class content for clients on the go or working from home or under lockdown. Some content would only be accessible to registered clients with a current subscription.
 
 - __Privacy/Security__
     - A 'Security' page could be added to provide commonly expected assurances to clients. Some content would only be accessible to registered clients with a current subscription, so it would eventually me necessary to collect more identifying information for legitimate use cases, as expected by GDPR and other related legislation, in various jurisdictions. All subsequent information sent to the client will have the option to opt out, delete personally identifiable information, access account information for a subject access request, and delete the account on request.
