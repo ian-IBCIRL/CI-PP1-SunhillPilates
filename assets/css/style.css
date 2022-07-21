@@ -36,6 +36,7 @@ nav {
 
 section {
    height: 100%;
+   scroll-behavior: auto;
    flex: 1 0 200px;
    color: rgb(194, 19, 233);
    /* section text */
