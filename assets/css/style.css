@@ -406,6 +406,10 @@ footer {
    h2 {
       font-size: medium;
    }
+   
+   footer{
+      height 400px;
+   }
 }
 
 /* Screen sizes from 430px wide or below */
@@ -424,6 +428,10 @@ footer {
    header {
       height: 180px;
    }
+   
+   footer{
+      height 400px;
+   }
 }
 
 /* Screen sizes from 290px wide or below */
@@ -441,5 +449,9 @@ footer {
 
    header {
       height: 250px;
+   }
+
+   footer{
+      height 400px;
    }
 }
