@@ -7,8 +7,7 @@
    margin:0;
    padding:0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
-  }
+}
 
 .containerz{
    height: 100vh ;
@@ -29,7 +28,7 @@ header{
    height: 150px;
    flex: 1 0 100%;
    color:rgb(55, 163, 27);
-   background-color: brown;
+   background-color: pink;
 }
 
 nav {
@@ -39,16 +38,16 @@ nav {
 section{
    height: 100%;
    flex: 1 0 200px;
-   color:rgb(71, 161, 144);
-   background-color: rgb(85, 87, 50);
+   color:rgb(194, 19, 233); /* section text */
+   background-color: pink; /* section color */
    margin: 10px 10px 10px 0;
 }
 
 aside{
    height: 100%;
    flex: 1 0 200px;
-   color:white;
-   background-color: rgb(118, 31, 129);
+   color:white; /* aside text */
+   background-color: rgb(118, 31, 129); /* aside background */
    margin: 10px 25px 0 0;
 
 }
@@ -123,7 +122,7 @@ a h1 {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.30em;
-    color: rgb(104, 102, 133);
+    color: white;
     height: 3rem;
  }
  
@@ -251,13 +250,13 @@ footer{
 }
 
 .text-input {
-   background: gray;
+   background: rgb(219, 28, 28);
    font-family: Oswald, sans-serif;
    font-size: 100%;
    font-weight: 700;
    width: 100%;
    margin: 0.3rem 0 1.3rem 0;
-   border: 0.07rem solid darkolivegreen;
+   border: 0.07rem solid rgb(156, 237, 15);
    border-radius: 2px;
    padding: 0.3rem;
    letter-spacing: 0.07rem;
@@ -320,11 +319,12 @@ footer{
    width: 75%; 
    text-decoration: none;
    display: inline-block;
-   font-size: 1.3rem;
+   font-size: 1rem;
    border-radius: 10px;
    font-weight: bold;
    box-shadow: 0.3rem 0.6rem red;
    margin-top: 1.9rem;
+   
 }
 
 .button:hover {
