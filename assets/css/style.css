@@ -1,33 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|sans-serif&display=swap');
-@media screen {
-   
-}
 
+@media screen {}
+ 
 * {
-   margin:0;
-   padding:0;
+   margin: 0;
+   padding: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.containerz{
-   height: 100vh ;
-   width: 100vw ;
+.containerz {
+   height: 100vh;
+   width: 100vw;
    overflow-x: hidden;
    display: flex;
    flex-wrap: wrap;
 }
 
 /* baseline body styling */
-body{
-   margin:1em 1em 1em 1em;
-    padding:0 ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   }
+body {
+   margin: 1em 1em 1em 1em;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-header{
+header {
    height: 150px;
    flex: 1 0 100%;
-   color:rgb(55, 163, 27);
+   color: rgb(55, 163, 27);
    background-color: pink;
 }
 
@@ -35,19 +34,23 @@ nav {
    padding: 10px;
 }
 
-section{
+section {
    height: 100%;
    flex: 1 0 200px;
-   color:rgb(194, 19, 233); /* section text */
-   background-color: pink; /* section color */
+   color: rgb(194, 19, 233);
+   /* section text */
+   background-color: pink;
+   /* section color */
    margin: 10px 10px 10px 0;
 }
 
-aside{
+aside {
    height: 100%;
    flex: 1 0 200px;
-   color:white; /* aside text */
-   background-color: rgb(118, 31, 129); /* aside background */
+   color: white;
+   /* aside text */
+   background-color: rgb(118, 31, 129);
+   /* aside background */
    margin: 10px 25px 0 0;
 
 }
@@ -82,7 +85,7 @@ aside{
 #classmenu li {
    list-style-type: none;
    margin-left: 1rem;
-}   
+}
 
 #classmenu a {
    text-decoration: none;
@@ -110,44 +113,44 @@ h2 {
 
 /* anchor styling */
 a {
-    text-decoration: none;
-    height: 40px;
-    width: 40px;
+   text-decoration: none;
+   height: 40px;
+   width: 40px;
 }
 
 
 /* anchor h1 styling */
 a h1 {
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.30em;
-    color: white;
-    height: 3rem;
- }
- 
- /* anchor h1 hover styling */
- a h1:hover {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.20em;
-    color: red;
- }
- 
-aside-one{
+   text-align: center;
+   text-decoration: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 0.30em;
+   color: white;
+   height: 3rem;
+}
+
+/* anchor h1 hover styling */
+a h1:hover {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   letter-spacing: 0.20em;
+   color: red;
+}
+
+aside-one {
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-footer{
-    text-align: center;
-    background-color: lightblue ;
-    color: rgb(55, 163, 27);
-    margin:5px;
-    padding:5px 0 0 0;
-    letter-spacing: 10px;
-    bottom: 0; 
-    left: 0;
-    height: 150px;
-    position: relative;
+footer {
+   text-align: center;
+   background-color: lightblue;
+   color: rgb(55, 163, 27);
+   margin: 5px;
+   padding: 5px 0 0 0;
+   letter-spacing: 10px;
+   bottom: 0;
+   left: 0;
+   height: 150px;
+   position: relative;
    width: 100%;
 }
 
@@ -193,17 +196,17 @@ footer{
 }
 
 
-.social-networks > li {
+.social-networks>li {
    display: inline;
 }
 
 
-.social-networks  i {
+.social-networks i {
    font-size: 200%;
    margin: 0.5rem;
    color: blue;
    /* text-decoration: none;*/
-} 
+}
 
 
 /* styling for the contact form */
@@ -242,7 +245,7 @@ footer{
 #contact-panel-left {
    width: 25rem;
    float: left;
-} 
+}
 
 #contact-panel-right {
    width: 37.5rem;
@@ -263,7 +266,7 @@ footer{
 }
 
 .text-input:hover {
-   border-color: yellow ;
+   border-color: yellow;
 }
 
 .text-input-line {
@@ -292,22 +295,22 @@ footer{
    margin: 0;
 }
 
-#classvideo{
-   margin:5px;
-   padding:10px;
+#classvideo {
+   margin: 5px;
+   padding: 10px;
    border: 10px 10px 10px 10px;
    letter-spacing: 10px;
-   bottom: 0; 
+   bottom: 0;
    left: 0;
    height: 50rem;
    position: relative;
    width: 100%;
 }
 
-#video-iframe{
+#video-iframe {
    width: 100%;
    height: 100%;
-   margin: 0;  
+   margin: 0;
 }
 
 .button {
@@ -316,7 +319,7 @@ footer{
    color: white;
    padding: 1rem;
    text-align: center;
-   width: 75%; 
+   width: 75%;
    text-decoration: none;
    display: inline-block;
    font-size: 1rem;
@@ -324,7 +327,7 @@ footer{
    font-weight: bold;
    box-shadow: 0.3rem 0.6rem red;
    margin-top: 1.9rem;
-   
+
 }
 
 .button:hover {
@@ -366,17 +369,19 @@ footer{
       line-height: 1.50rem;
       width: 90%;
    }
+
    h1 {
-      font-size: 150% ;
+      font-size: 150%;
    }
+
    h2 {
       font-size: medium;
    }
 }
-   
+
 /* Screen sizes from 430px wide or below */
 @media screen and (max-width: 430px) {
-   
+
 
    #menu {
       clear: left;
@@ -387,7 +392,7 @@ footer{
       width: 80%;
    }
 
-   header{
+   header {
       height: 180px;
    }
 }
@@ -402,10 +407,10 @@ footer{
       margin-bottom: 2.25rem;
       line-height: 1.50rem;
       width: 80%;
-      position: absolute ;
+      position: absolute;
    }
-   header{
+
+   header {
       height: 250px;
    }
 }
-
