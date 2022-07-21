@@ -207,7 +207,9 @@ Here is the version history:
 
 **15th July, 2022** Updating `README.md` file with deployment, cloning and credits info. Menu to required site pages added (Classes & Contact). First pass at Media settings defined.
 
-**21st July, 2022** Updating `README.md` file with updated layout, color scheme and new pages.
+**21st July, 2022** 
+Updating `README.md` file with updated layout, color scheme and new pages.
+
 ------
 
 ## Data Privacy
