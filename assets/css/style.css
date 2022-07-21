@@ -408,7 +408,7 @@ footer {
    }
    
    footer{
-      height 400px;
+      height: 400px;
    }
 }
 
@@ -430,7 +430,7 @@ footer {
    }
    
    footer{
-      height 400px;
+      height: 400px;
    }
 }
 
@@ -452,6 +452,6 @@ footer {
    }
 
    footer{
-      height 400px;
+      height: 400px;
    }
 }
