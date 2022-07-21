@@ -64,7 +64,7 @@ aside {
 
 #menu,
 #logo {
-   line-height: 5rem;
+   line-height: 3rem;
 }
 
 #menu li {
@@ -217,23 +217,23 @@ footer {
    background-position: center;
    width: 100%;
    overflow: hidden;
-   min-height: 57rem;
+   min-height: 90rem;
 }
 
 #contact-panel-container {
    width: 75rem;
-   margin: 4.7rem auto;
+   margin: 3.7rem auto;
 }
 
 .contact-panel {
    text-align: left;
    font-weight: 600;
    letter-spacing: 0.07rem;
-   font-size: 120%;
+   font-size: 100%;
    background-color: pink;
    border-radius: 10px;
    padding: 1.8rem;
-   height: 40rem;
+   height: 60rem;
 }
 
 .contact-panel h2 {
@@ -243,7 +243,7 @@ footer {
 }
 
 #contact-panel-left {
-   width: 25rem;
+   width: 30rem;
    float: left;
 }
 
@@ -258,6 +258,7 @@ footer {
    font-size: 100%;
    font-weight: 700;
    width: 100%;
+   color: white;
    margin: 0.3rem 0 1.3rem 0;
    border: 0.07rem solid rgb(156, 237, 15);
    border-radius: 2px;
@@ -266,7 +267,7 @@ footer {
 }
 
 .text-input:hover {
-   border-color: yellow;
+   border-color: black;
 }
 
 .text-input-line {
@@ -274,7 +275,7 @@ footer {
 }
 
 .text-input-box {
-   height: 9.4rem;
+   height: 5rem;
    resize: none;
 }
 
@@ -305,6 +306,18 @@ footer {
    height: 50rem;
    position: relative;
    width: 100%;
+}
+
+#codeinstframe {
+   margin: 5px;
+   padding: 10px;
+   border: 10px 10px 10px 10px;
+   letter-spacing: 10px;
+   bottom: 0;
+   left: 0;
+   height: 30rem;
+   position: relative;
+   width: 50%;
 }
 
 #video-iframe {

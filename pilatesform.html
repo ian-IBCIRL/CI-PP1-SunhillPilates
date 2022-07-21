@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +19,10 @@
 <body>
     <div class="containerz">
         <header>
-            <a href="index.html">
-                <h1 id="logo"><i class="fas fa-globe"></i> Sunhill Pilates</h1>
-                <br>
-                <h2>Sign up for classes!</h2>
+            <a href="./index.html">
+                <h1><i class="fas fa-globe"></i>Sunhill Pilates</h1>
             </a>
+            <h2>Sign up for classes!</h2>
             <nav>
                 <ul id="menu">
                     <li>
@@ -35,7 +34,6 @@
                     <li>
                         <a href="pilatesform.html" class="active">Contact</a>
                     </li>
-
                 </ul>
             </nav>
         </header>
@@ -55,17 +53,19 @@
                             placeholder="What would you like to know about Sunhill Pilates? Give us your feedback - let us know what you'd like to see here."></textarea>
                         <p>
                             Would you like to sign up to our mailing list for discounted classes and offers ?
-                        </p><br>
+                        </p>
                         <input type="radio" id="opt-in" name="consent" value="yes" required>
                         <label for="opt-in" class="radio-label">Count me in</label>
                         <input type="radio" id="opt-out" name="consent" value="no" checked>
                         <label for="opt-out">No thanks</label>
-
                         <input type="submit" value="Send Message" class="button">
+                        <br><br>
                     </form>
-
-                    <!-- when the form is submitted, the server response will appear in this iframe -->
-                    <iframe name="my_iframe" width=400px height=200px></iframe>
+                    <br><br>
+                    <div id="codeinstframe">
+                        <!-- when the form is submitted, the server response will appear in this iframe -->
+                        <iframe name="my_iframe" width=400 height=200></iframe>
+                    </div>
                 </div>
                 <div class="contact-panel" id="contact-panel-right">
                     <h2>How to find us</h2>
