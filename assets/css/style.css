@@ -26,7 +26,7 @@ body {
 header {
    height: 150px;
    flex: 1 0 100%;
-   color: rgb(55, 163, 27);
+   color: white;
    background-color: pink;
 }
 
@@ -103,21 +103,21 @@ aside-two {
 }
 
 #classmenu a:hover {
-   border-bottom: 0.1rem solid green;
+   border-bottom: 0.1rem solid rgb(194, 19, 233);
 }
 
 /* headings styling  */
 h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
-   color: orange;
+   color: rgb(194, 19, 233);
    text-align: center;
 }
 
 h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
-   color: orange;
+   color: rgb(194, 19, 233);
    text-align: center;
 }
 
@@ -143,7 +143,7 @@ a h1 {
 a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.20em;
-   color: red;
+   color: rgb(194, 19, 233);
 }
 
 aside-one {
@@ -153,13 +153,13 @@ aside-one {
 footer {
    text-align: center;
    background-color: lightblue;
-   color: rgb(55, 163, 27);
+   color: white;
    margin: 5px;
    padding: 5px 0 0 0;
    letter-spacing: 10px;
    bottom: 0;
    left: 0;
-   height: 270px;
+   height: 370px;
    position: relative;
    width: 100%;
 }
@@ -214,7 +214,7 @@ footer {
 .social-networks i {
    font-size: 200%;
    margin: 0.5rem;
-   color: blue;
+   color:  rgb(194, 19, 233);
    /* text-decoration: none;*/
 }
 
@@ -263,14 +263,14 @@ footer {
 }
 
 .text-input {
-   background: rgb(219, 28, 28);
+   color: rgb(194, 19, 233);
    font-family: Oswald, sans-serif;
    font-size: 100%;
    font-weight: 700;
    width: 100%;
    color: white;
    margin: 0.3rem 0 1.3rem 0;
-   border: 0.07rem solid rgb(156, 237, 15);
+   border: 0.07rem solid rgb(215, 154, 229);
    border-radius: 2px;
    padding: 0.3rem;
    letter-spacing: 0.07rem;
@@ -354,7 +354,7 @@ footer {
    font-size: 1rem;
    border-radius: 10px;
    font-weight: bold;
-   box-shadow: 0.3rem 0.6rem red;
+   box-shadow: 0.3rem 0.6rem  rgb(215, 154, 229);
    margin-top: 1.9rem;
 
 }
@@ -386,6 +386,9 @@ footer {
       line-height: .50rem;
       width: 95%;
    }
+   footer{
+      height: 800px;
+   }
 }
 
 /* Screen sizes from 700px wide or below */
@@ -408,7 +411,7 @@ footer {
    }
    
    footer{
-      height: 400px;
+      height: 800px;
    }
 }
 
@@ -430,7 +433,7 @@ footer {
    }
    
    footer{
-      height: 400px;
+      height: 800px;
    }
 }
 
@@ -452,6 +455,6 @@ footer {
    }
 
    footer{
-      height: 400px;
+      height: 900px;
    }
 }
