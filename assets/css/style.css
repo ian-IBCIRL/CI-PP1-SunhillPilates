@@ -55,6 +55,16 @@ aside {
 
 }
 
+aside-two {
+   height: 100%;
+   flex: 1 0 200px;
+   color: white;
+   /* aside text */
+   background-color: rgb(118, 31, 129);
+   /* aside background */
+   margin: 10px 25px 0 0;
+}
+
 
 #menu {
    font-size: 125%;
@@ -149,7 +159,7 @@ footer {
    letter-spacing: 10px;
    bottom: 0;
    left: 0;
-   height: 150px;
+   height: 270px;
    position: relative;
    width: 100%;
 }
