@@ -63,6 +63,7 @@ body {
    text-align: center;
    color: white;
    text-transform: uppercase;
+   opacity: 85%;
 }
 
 #welcome-text h2 {
@@ -93,18 +94,52 @@ nav {
    background: url("../images/june1.JPG") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
-   color: rgb(194, 19, 233);
+   color: white;
+   text-shadow: 2px 2px rgb(194, 19, 233);
    /* section text */
    background-color: pink;
    /* section color */
    margin: 10px 10px 10px 0;
+   padding: 10px;
    scroll-behavior: auto;
 }
+
+.sectionr {
+   background: url("../images/reformers2.JPG") no-repeat center center;
+   height: 100%;
+   flex: 1 0 200px;
+   color: white;
+   font-size: x-large;
+   text-shadow: 2px 2px rgb(194, 19, 233);
+   /* section text */
+   background-color: pink;
+   /* section color */
+   margin: 10px 10px 10px 0;
+   padding: 10px;
+   scroll-behavior: auto;
+}
+
+
+.sectionp {
+   background: url("../images/reformerp.JPG") no-repeat center center;
+   height: 100%;
+   flex: 1 0 200px;
+   color: white;
+   font-size: x-large;
+   text-shadow: 2px 2px rgb(194, 19, 233);
+   /* section text */
+   background-color: pink;
+   /* section color */
+   margin: 10px 10px 10px 0;
+   padding: 10px;
+   scroll-behavior: auto;
+}
+
 
 section {
    height: 100%;
    flex: 1 0 200px;
-   color: rgb(194, 19, 233);
+   color: white;
    /* section text */
    background-color: pink;
    /* section color */
@@ -125,7 +160,9 @@ aside {
    background-color: rgb(118, 31, 129);
    /* aside background */
    margin: 10px 25px 0 0;
-
+   padding: 10px;
+   text-shadow: 2px 2px rgb(194, 19, 233);
+   font-size: xx-large;
 }
 
 aside-two {
@@ -193,6 +230,7 @@ h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
    color: rgb(194, 19, 233);
+   opacity: 100%;
 }
 
 h2 {
@@ -272,6 +310,20 @@ footer {
    margin: 0 auto;
    text-align: left;
 }
+
+#hours-group {
+   text-align: center;
+   padding-top: 1.9rem;
+}
+
+#hours-center-panel {
+   display: inline-block;
+   margin: 0 auto;
+   text-align: left;
+   color:white;
+   font-size: larger;
+}
+
 
 .footer-text {
    font-size: 90%;
@@ -445,7 +497,8 @@ footer {
    font-weight: bold;
    box-shadow: 0.3rem 0.6rem  rgb(215, 154, 229);
    margin-top: 1.5rem;
-
+   text-shadow: none;
+   opacity: 100;
 }
 
 .button:hover {
