@@ -162,17 +162,29 @@ The last update to this file was: **21st July 2022**
 
 ### Validator Testing
 
-- [HTML Validator](https://validator.w3.org/)
--   Good results all round
+[HTML Validator](https://validator.w3.org/)
+Good results all round
 
-    - [HTML results index](./assets/images/html-validation-result-1.PNG)
-    - [HTML results classes](./assets/images/html-validation-result-2.PNG)
-    - [HTML results pilatesform](./assets/images/html-validation-result-3.PNG)
-    
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
--   No Error Found. This document validates as CSS level 3 + SVG !
+<details><summary>Index HTML Results</summary>
+<img src="./assets/images/html-validation-result-1.PNG">
+</details>
+<details><summary>Classes HTML Results</summary>
+<img src="./assets/images/html-validation-result-2.PNG">
+</details>
+<details><summary>Pilates Form HTML Results</summary>
+<img src="./assets/images/html-validation-result-3.PNG">
+</details> The Pilates Form has some relative performance issues with the css load and the background image size.
 
-    - [CSS results](./assets/images/css-validation-result-1.PNG)
+### 
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+No Error Found. This document validates as CSS level 3 + SVG !
+
+### 
+<details><summary>CSS Results</summary>
+<img src="./assets/images/css-validation-result-1.PNG">
+</details>
+
+### 
 
 ### Browser Compatibility
 
