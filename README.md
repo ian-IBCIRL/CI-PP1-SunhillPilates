@@ -163,18 +163,16 @@ The last update to this file was: **21st July 2022**
 ### Validator Testing
 
 - [HTML Validator](https://validator.w3.org/)
+-   Good results all round
 
-    - result for index.html
-      ![HTML results index](documentation/validation-results/html-validation-result-1.png)
-    - result for classes.html
-      ![HTML results classes](documentation/validation-results/html-validation-result-2.png)
-    - result for pilatesform.html
-      ![HTML results pilatesform](documentation/validation-results/html-validation-result-3.png)
-
+    - [HTML results index](./assets/images/html-validation-result-1.PNG)
+    - [HTML results classes](./assets/images/html-validation-result-2.PNG)
+    - [HTML results pilatesform](./assets/images/html-validation-result-3.PNG)
+    
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+-   No Error Found. This document validates as CSS level 3 + SVG !
 
-    - result for style.css 
-      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
+    - [CSS results](./assets/images/css-validation-result-1.PNG)
 
 ### Browser Compatibility
 
