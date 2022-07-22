@@ -198,7 +198,7 @@ No Error Found. This document validates as CSS level 3 + SVG !
 
 - The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
 
-  ![Test Results](documentation/addl-images/testcases.jpg
+  ![Test Results](assets/images/css-validation-result-1.PNG)
 
 ### Known bugs
 
