@@ -1,0 +1,15 @@
+{
+    "short_name": "SP",
+    "name": "Sunhill Pilates",
+    "icons": [
+    {
+      "src":"./favicon.ico",
+      "sizes": "",
+      "type": ""
+    }
+   ],
+   "start_url": "https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/",
+   "background_color": "",
+   "Theme_color": "",
+   "display": ""
+  }

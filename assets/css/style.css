@@ -35,7 +35,7 @@ body {
 #hero-image {
    height: 38rem;
    width: 100%;
-   background: url("../images/reformers.JPG") no-repeat center center;
+   background: url("../images/reformers.avif") no-repeat center center;
    animation: hero-fade-in 6s;
    /* animate home page */
 }
@@ -91,7 +91,7 @@ nav {
 }
 
 .sectionc {
-   background: url("../images/june1.JPG") no-repeat top center;
+   background: url("../images/june1.avif") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
@@ -105,7 +105,7 @@ nav {
 }
 
 .sectionr {
-   background: url("../images/reformers2.JPG") no-repeat center center;
+   background: url("../images/reformers2.avif") no-repeat center center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
@@ -121,7 +121,7 @@ nav {
 
 
 .sectionp {
-   background: url("../images/reformerp.JPG") no-repeat center center;
+   background: url("../images/reformerp.avif") no-repeat center center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
@@ -152,7 +152,7 @@ needinfo{
 }
 
 aside {
-   background: url("../images/june1.JPG") no-repeat top center;
+   background: url("../images/june1.avif") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
@@ -166,7 +166,7 @@ aside {
 }
 
 aside-two {
-   background: url("../images/june1.JPG") no-repeat top center;
+   background: url("../images/june1.avif") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
@@ -354,7 +354,7 @@ footer {
 
 /* styling for the contact form */
 #contact-section {
-   background-image: url("../images/mat-pexels-alexy-almond-3756527.jpg");
+   background-image: url("../images/mat-pexels-alexy-almond-3756527.avif");
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center;
