@@ -23,6 +23,61 @@ body {
    flex-wrap: wrap;
 }
 
+
+/* hero image and text */
+#hero-outer {
+   height: 37.5rem;
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+#hero-image {
+   height: 38rem;
+   width: 100%;
+   background: url("../images/reformers.JPG") no-repeat center center;
+   animation: hero-fade-in 6s;
+   /* animate home page */
+}
+
+/* fade-in for hero image */
+@keyframes hero-fade-in {
+   0% {
+      opacity: 0.5;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
+
+#welcome-text {
+   letter-spacing: 0.25rem;
+   padding: 2.5rem;
+   background-color: rgb(194, 19, 233);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+}
+
+#welcome-text h2 {
+   color: white;
+   font-size: 150%;
+}
+
+#welcome-text h3 {
+   color: white;
+   font-size: 250%;
+   font-weight: bold;
+   line-height: 1;
+   padding-top: 1.9rem;
+}
+
 header {
    height: 150px;
    flex: 1 0 100%;
@@ -345,7 +400,7 @@ footer {
 #video-iframe {
    width: 100%;
    height: 100%;
-   margin: 0;
+   margin: 10px;
 }
 
 #needdetails {
