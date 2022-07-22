@@ -442,7 +442,7 @@ footer {
 #classvideo {
    margin: auto;
    padding: 10px;
-   border: 10px 10px 10px 10px;
+   border: 10px;
    letter-spacing: 10px;
    bottom: 0;
    left: 0;
@@ -454,7 +454,7 @@ footer {
 #codeinstframe {
    margin: 5px;
    padding: 10px;
-   border: 10px 10px 10px 10px;
+   border: 10px;
    letter-spacing: 10px;
    bottom: 0;
    left: 0;
@@ -471,10 +471,9 @@ footer {
 
 #needdetails {
    text-align: center;
-   align: center;
    margin: auto;
    padding: 10px;
-   border: 10px 10px 10px 10px;
+   border: 10px ;
    letter-spacing: 10px;
    display: block;
 
@@ -483,7 +482,6 @@ footer {
 .button {
    background-color: darkmagenta;
    border: solid 2px;
-   align: center;
    color: white;
    padding: 1.3rem;
    text-align: center;
