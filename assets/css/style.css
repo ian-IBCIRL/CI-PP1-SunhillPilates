@@ -106,6 +106,7 @@ aside-two {
    list-style-type: none;
    margin-left: 1rem;
    text-align: center; /* center align buttons */
+   color: white;
 }
 
 #classmenu a {
@@ -115,6 +116,7 @@ aside-two {
 
 #classmenu a:hover {
    border-bottom: 0.1rem solid rgb(194, 19, 233);
+   color: rgb(194, 19, 233);
 }
 
 /* headings styling  */
