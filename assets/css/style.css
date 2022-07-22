@@ -8,19 +8,19 @@
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* baseline body styling */
+body {
+   margin: 1em 1em 1em 1em;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .containerz {
    height: 100vh;
    width: 100vw;
    overflow-x: hidden;
    display: flex;
    flex-wrap: wrap;
-}
-
-/* baseline body styling */
-body {
-   margin: 1em 1em 1em 1em;
-   padding: 0;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -36,13 +36,17 @@ nav {
 
 section {
    height: 100%;
-   scroll-behavior: auto;
    flex: 1 0 200px;
    color: rgb(194, 19, 233);
    /* section text */
    background-color: pink;
    /* section color */
    margin: 10px 10px 10px 0;
+   scroll-behavior: auto;
+}
+
+needinfo{
+   scroll-behavior: auto;
 }
 
 aside {
@@ -74,8 +78,13 @@ aside-two {
 }
 
 #menu,
-#logo {
+#sp-logo {
    line-height: 3rem;
+}
+
+#sp-logo{
+   text-align: center;
+   margin-left: 1.8rem;
 }
 
 #menu li {
@@ -90,12 +99,13 @@ aside-two {
 }
 
 #menu a:hover {
-   border-bottom: 0.05rem solid green;
+   border-bottom: 0.05rem solid rgb(118, 31, 129);
 }
 
 #classmenu li {
    list-style-type: none;
    margin-left: 1rem;
+   text-align: center; /* center align buttons */
 }
 
 #classmenu a {
@@ -112,7 +122,6 @@ h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
    color: rgb(194, 19, 233);
-   text-align: center;
 }
 
 h2 {
@@ -264,12 +273,12 @@ footer {
 }
 
 .text-input {
-   color: rgb(194, 19, 233);
-   font-family: Oswald, sans-serif;
+   /* contact message boxes */
+   font-family: Oswald;
    font-size: 100%;
-   font-weight: 700;
+   font-weight: 900;
    width: 100%;
-   color: white;
+   color: red;
    margin: 0.3rem 0 1.3rem 0;
    border: 0.07rem solid rgb(215, 154, 229);
    border-radius: 2px;
@@ -282,7 +291,7 @@ footer {
 }
 
 .text-input-line {
-   height: 1.6rem;
+   height: 1.8rem;
 }
 
 .text-input-box {
@@ -308,7 +317,7 @@ footer {
 }
 
 #classvideo {
-   margin: 5px;
+   margin: auto;
    padding: 10px;
    border: 10px 10px 10px 10px;
    letter-spacing: 10px;
@@ -316,7 +325,7 @@ footer {
    left: 0;
    height: 50rem;
    position: relative;
-   width: 100%;
+   display:block;
 }
 
 #codeinstframe {
@@ -338,25 +347,33 @@ footer {
 }
 
 #needdetails {
-   width: 100%;
-   height: 100%;
-   margin: 20;
+   text-align: center;
+   align: center;
+   margin: auto;
+   padding: 10px;
+   border: 10px 10px 10px 10px;
+   letter-spacing: 10px;
+   display: block;
+
 }
 
 .button {
    background-color: darkmagenta;
-   border: none;
+   border: solid 2px;
+   align: center;
    color: white;
-   padding: 1rem;
+   padding: 1.3rem;
    text-align: center;
-   width: 75%;
+   text-size-adjust: auto;
+   width: 75%; 
+   height:fit-content;
    text-decoration: none;
    display: inline-block;
    font-size: 1rem;
    border-radius: 10px;
    font-weight: bold;
    box-shadow: 0.3rem 0.6rem  rgb(215, 154, 229);
-   margin-top: 1.9rem;
+   margin-top: 1.5rem;
 
 }
 
