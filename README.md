@@ -19,16 +19,16 @@ This file also contains some important information about the project, including 
 The last update to this file was: **21st July 2022** 
 
 ## Index
-* [User Experience (UX) - WIP](#user-experience-ux) 
-* [Features - WIP](#features)
-* [Design - WIP](#design)
-* [Technologies Used - TBC](#technologies-used)
-* [Testing - TBC](#testing)
-* [Deployment - WIP](#deployment)
+* [User Experience (UX)](#user-experience-ux) 
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
 * [Gitpod Reminders](#gitpod-reminders)
-* [Credits - WIP](#credits)
-* [Release History - WIP](#release-history)
-* [Data Privacy - WIP](#data-privacy)
+* [Credits](#credits)
+* [Release History ](#release-history)
+* [Data Privacy](#data-privacy)
 
 ## User Experience (UX)
 
@@ -109,6 +109,8 @@ The last update to this file was: **21st July 2022**
     -   I am working to find images to choose that will be eye-catching, informative and bright.  The colours in the images will be chosen to help convey a sense of mindfulness, health and wellbeing. The images will show Pilates participants to align with the main business goal of selling Pilates classes. They will be chosen to ensure the site is clear and easy to use.
 
     - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
+    - JPG to avif from https://convertio.co/jpg-avif/ 
+    - Colors from https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w 
 
 -   ### Colour Scheme
     -  A palette will be chosen to convey a mindful and healthy mood. An image of the palette will be added here.
@@ -134,13 +136,63 @@ The last update to this file was: **21st July 2022**
 <img src="assets/images/wireframes-homepage.png">
 </details>
 
-## Technologies Used - TBC
+## Technologies Used
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
+* [see also Credits ](#credits)
+
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+-   [Balsamiq:](https://balsamiq.com/) for wireframes during the design process.
+-   [Git:](https://git-scm.com/) was used for version control in the Gitpod environment to commit to Git, with comments, and Push to GitHub and publish to the public cloud.
+-   [GitHub:](https://github.com/) is used as the respository for the source code, and GitPages for hosting.
+-   [Google Fonts:](https://fonts.google.com/) for 'Lato' and 'Oswald' fonts.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons for visual cues.
+-   [Convertio JPG to avif:](https://convertio.co/jpg-avif/) to convert JPG to avif images.
+
+## Testing 
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
-## Testing - TBC
-* [Back to index](#index) 
-* [Back to top of README.md](#about-my-project) 
+### Validator Testing
+
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for index.html
+      ![HTML results index](documentation/validation-results/html-validation-result-1.png)
+    - result for classes.html
+      ![HTML results classes](documentation/validation-results/html-validation-result-2.png)
+    - result for pilatesform.html
+      ![HTML results pilatesform](documentation/validation-results/html-validation-result-3.png)
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - result for style.css 
+      ![CSS results 1](documentation/validation-results/css-validation-result-1.png)
+
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome Version 103.0.5060.134 (Official Build) (64-bit)
+    - Firefox 
+    - Edge Version Version 103.0.1264.62 (Official build) (64-bit)
+    - Safari on macOS 
+    
+### Test Cases and Results
+
+- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
+
+  ![Test Results](documentation/addl-images/testcases.jpg
+
+### Known bugs
+
+- None so far.
 
 ## Deployment
 * [Back to index](#index) 
@@ -184,6 +236,7 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
     - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
     - Pilates images https://www.pexels.com/ 
     - favicon.ico generation https://favicon.io/favicon-generator/
+    - Colors from https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w 
 
 -   ### Video
     - Social media video from https://www.facebook.com/watch/mindfulpilatesjune/ 
