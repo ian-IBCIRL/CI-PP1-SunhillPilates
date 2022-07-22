@@ -196,7 +196,7 @@ No Error Found. This document validates as CSS level 3 + SVG !
     
 ### Test Cases and Results
 
-- The below table details the test cases that were used, the results and a cross-reference to the Feature ID that each test case exercised (click to open iamge):
+- This testing table shows test cases, the results and reference to the Feature ID which the test case proved:
 
   ![Test Results](assets/images/css-validation-result-1.PNG)
 
