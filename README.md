@@ -16,7 +16,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **21st July 2022** 
+The last update to this file was: **25th July 2022** 
 
 ## Index
 * [User Experience (UX)](#user-experience-ux) 
@@ -268,10 +268,11 @@ Here is the version history:
 
 **12th July, 2022** Planning initial project scope in the `README.md` file. I have also added a basic home page with a header, body and footer. More to follow.
 
-**15th July, 2022** Updating `README.md` file with deployment, cloning and credits info. Menu to required site pages added (Classes & Contact). First pass at Media settings defined.
-
 **21st July, 2022** 
 Updating `README.md` file with updated layout, color scheme and new pages.
+
+**25th July, 2022** 
+Updating aside scrolling, header and footer sizing and responsiveness.
 
 ------
 

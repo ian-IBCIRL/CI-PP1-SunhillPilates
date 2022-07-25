@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|sans-serif&display=swap');
 
 @media screen {}
- 
+
 * {
    margin: 0;
    padding: 0;
@@ -10,7 +10,7 @@
 
 /* baseline body styling */
 body {
-   margin: 1em 1em 1em 1em;
+   margin: 2em;
    padding: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -18,7 +18,7 @@ body {
 .containerz {
    height: 100vh;
    width: 100vw;
-   overflow-x: hidden;
+   overflow: hidden-x;
    display: flex;
    flex-wrap: wrap;
 }
@@ -26,7 +26,7 @@ body {
 
 /* hero image and text */
 #hero-outer {
-   height: 37.5rem;
+   height: 38rem;
    width: 100%;
    overflow: hidden;
    position: relative;
@@ -56,10 +56,9 @@ body {
    letter-spacing: 0.25rem;
    padding: 2.5rem;
    background-color: rgb(194, 19, 233);
-   position: absolute;
+   position: relative;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
    text-align: center;
    color: white;
    text-transform: uppercase;
@@ -99,8 +98,7 @@ nav {
    /* section text */
    background-color: pink;
    /* section color */
-   margin: 10px 10px 10px 0;
-   padding: 10px;
+   margin: 20px;
    scroll-behavior: auto;
 }
 
@@ -114,7 +112,7 @@ nav {
    /* section text */
    background-color: pink;
    /* section color */
-   margin: 10px 10px 10px 0;
+   margin: 20px;
    padding: 10px;
    scroll-behavior: auto;
 }
@@ -130,7 +128,7 @@ nav {
    /* section text */
    background-color: pink;
    /* section color */
-   margin: 10px 10px 10px 0;
+   margin: 20px;
    padding: 10px;
    scroll-behavior: auto;
 }
@@ -143,11 +141,11 @@ section {
    /* section text */
    background-color: pink;
    /* section color */
-   margin: 10px 10px 10px 0;
+   margin: 20px;
    scroll-behavior: auto;
 }
 
-needinfo{
+needinfo {
    scroll-behavior: auto;
 }
 
@@ -159,13 +157,14 @@ aside {
    /* aside text */
    background-color: rgb(118, 31, 129);
    /* aside background */
-   margin: 10px 25px 0 0;
+   margin: 20px;
+   overflow: scroll;
    padding: 10px;
    text-shadow: 2px 2px rgb(194, 19, 233);
    font-size: xx-large;
 }
 
-aside-two {
+aside-one {
    background: url("../images/june1.avif") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
@@ -173,7 +172,9 @@ aside-two {
    /* aside text */
    background-color: rgb(118, 31, 129);
    /* aside background */
-   margin: 10px 25px 0 0;
+   overflow: scroll;
+   margin: 20px;
+   padding: 20px;
 }
 
 
@@ -181,6 +182,7 @@ aside-two {
    font-size: 125%;
    font-weight: 500;
    letter-spacing: 0.25rem;
+   padding: 20px; 
 }
 
 #menu,
@@ -188,7 +190,7 @@ aside-two {
    line-height: 3rem;
 }
 
-#sp-logo{
+#sp-logo {
    text-align: center;
    margin-left: 1.8rem;
 }
@@ -211,7 +213,8 @@ aside-two {
 #classmenu li {
    list-style-type: none;
    margin-left: 1rem;
-   text-align: center; /* center align buttons */
+   text-align: center;
+   /* center align buttons */
    color: white;
 }
 
@@ -278,7 +281,7 @@ footer {
    letter-spacing: 10px;
    bottom: 0;
    left: 0;
-   height: 370px;
+   height: 250px;
    position: relative;
    width: 100%;
 }
@@ -298,11 +301,13 @@ footer {
 #footer-left-panel {
    float: left;
    text-align: left;
+   margin: 10px;
 }
 
 #footer-right-panel {
    float: right;
    text-align: left;
+   margin: 10px;
 }
 
 #footer-center-panel {
@@ -320,7 +325,7 @@ footer {
    display: inline-block;
    margin: 0 auto;
    text-align: left;
-   color:white;
+   color: white;
    font-size: larger;
 }
 
@@ -347,7 +352,7 @@ footer {
 .social-networks i {
    font-size: 200%;
    margin: 0.5rem;
-   color:  rgb(194, 19, 233);
+   color: rgb(194, 19, 233);
    /* text-decoration: none;*/
 }
 
@@ -448,7 +453,7 @@ footer {
    left: 0;
    height: 50rem;
    position: relative;
-   display:block;
+   display: block;
 }
 
 #codeinstframe {
@@ -471,13 +476,26 @@ footer {
 
 #needdetails {
    text-align: center;
-   margin: auto;
+   margin: 10px;
    padding: 10px;
-   border: 10px ;
-   letter-spacing: 10px;
+   border: 10px;
    display: block;
-
+   width: 100%;
+   height: 500px;
+   width: 100%;
 }
+
+#needdetails2 {
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   border: 10px;
+   display: block;
+   width: 100%;
+   height: 500px;
+   width: 100%;
+}
+.needframe { flex-grow: 1; border: none; margin: 0; padding: 0; height: 400px; width: 100%}
 
 .button {
    background-color: darkmagenta;
@@ -486,14 +504,14 @@ footer {
    padding: 1.3rem;
    text-align: center;
    text-size-adjust: auto;
-   width: 75%; 
-   height:fit-content;
+   width: 75%;
+   height: fit-content;
    text-decoration: none;
    display: inline-block;
    font-size: 1rem;
    border-radius: 10px;
    font-weight: bold;
-   box-shadow: 0.3rem 0.6rem  rgb(215, 154, 229);
+   box-shadow: 0.3rem 0.6rem rgb(215, 154, 229);
    margin-top: 1.5rem;
    text-shadow: none;
    opacity: 100;
@@ -526,13 +544,25 @@ footer {
       line-height: .50rem;
       width: 95%;
    }
-   footer{
-      height: 800px;
+
+   footer {
+      height: 300px;
    }
+
+   #contact-panel-left {
+      width: 25rem;
+      float: left;
+   }
+
+   #contact-panel-right {
+      width: 25rem;
+      float: left;
+   }
+
 }
 
-/* Screen sizes from 700px wide or below */
-@media screen and (max-width: 700px) {
+/* Screen sizes from 780px wide or below */
+@media screen and (max-width: 780px) {
    #menu {
       clear: left;
       float: left;
@@ -549,16 +579,14 @@ footer {
    h2 {
       font-size: medium;
    }
-   
-   footer{
-      height: 800px;
+
+   footer {
+      height: 400px;
    }
 }
 
-/* Screen sizes from 430px wide or below */
-@media screen and (max-width: 430px) {
-
-
+/* Screen sizes from 470px wide or below */
+@media screen and (max-width: 470px) {
    #menu {
       clear: left;
       float: left;
@@ -571,14 +599,30 @@ footer {
    header {
       height: 180px;
    }
-   
-   footer{
-      height: 800px;
+
+   footer {
+      height: 600px;
    }
+
+   h1 {
+      font-size: 100%;
+      letter-spacing: normal;
+   }
+
+   /* anchor h1 styling */
+   a h1 {
+      text-align: left;
+      letter-spacing: 0.05em;
+   }
+
+   h2 {
+      font-size: small;
+   }
+
 }
 
-/* Screen sizes from 290px wide or below */
-@media screen and (max-width: 290px) {
+/* Screen sizes from 330px wide or below */
+@media screen and (max-width: 330px) {
 
    #menu {
       clear: left;
@@ -587,14 +631,30 @@ footer {
       margin-bottom: 2.25rem;
       line-height: 1.50rem;
       width: 80%;
-      position: absolute;
    }
 
    header {
-      height: 250px;
+      height: 200px;
    }
 
-   footer{
-      height: 900px;
+   footer {
+      height: 700px;
    }
+
+
+   h1 {
+      font-size: 100%;
+      letter-spacing: normal;
+   }
+
+   /* anchor h1 styling */
+   a h1 {
+      text-align: left;
+      letter-spacing: 0.05em;
+   }
+
+   h2 {
+      font-size: small;
+   }
+
 }
