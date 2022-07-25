@@ -10,14 +10,14 @@
 
 /* baseline body styling */
 body {
-   margin: 2em;
+   margin: 0;
    padding: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .containerz {
    height: 100vh;
-   width: 100vw;
+   width: 98vw;
    overflow: hidden-x;
    display: flex;
    flex-wrap: wrap;
@@ -570,14 +570,14 @@ footer {
 
 
    #contact-panel-left {
-      width: 30rem;
+      width: 75%;
       float: none;
       margin: auto;
       padding: 30px;
    }
 
    #contact-panel-right {
-      width: 35rem;
+      width: 75%;
       float: none;
       margin: 4.6875rem auto;
    }
