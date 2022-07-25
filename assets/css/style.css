@@ -312,7 +312,7 @@ footer {
 
 #footer-center-panel {
    display: inline-block;
-   margin: 0 auto;
+   margin: 10px auto;
    text-align: left;
 }
 
@@ -364,7 +364,7 @@ footer {
    background-size: auto;
    background-position: center;
    width: 100%;
-   overflow: hidden;
+   overflow: scroll;
    min-height: 90rem;
 }
 
@@ -549,14 +549,25 @@ footer {
       height: 300px;
    }
 
+
+   #contact-panel-container {
+      width: 100%;
+      display: block;
+      
+   }
+
+
    #contact-panel-left {
-      width: 25rem;
-      float: left;
+      width: 30rem;
+      float: none;
+      margin: auto;
+      padding: 30px;
    }
 
    #contact-panel-right {
-      width: 25rem;
-      float: left;
+      width: 35rem;
+      float: none;
+      margin: 4.6875rem auto;
    }
 
 }
