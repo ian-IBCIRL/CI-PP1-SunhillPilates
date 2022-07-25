@@ -92,7 +92,7 @@ nav {
 .sectionc {
    background: url("../images/june1.avif") no-repeat top center;
    height: 100%;
-   flex: 1 0 200px;
+   flex: 1 0 250px;
    color: white;
    text-shadow: 2px 2px rgb(194, 19, 233);
    /* section text */
@@ -105,7 +105,7 @@ nav {
 .sectionr {
    background: url("../images/reformers2.avif") no-repeat center center;
    height: 100%;
-   flex: 1 0 200px;
+   flex: 1 0 250px;
    color: white;
    font-size: x-large;
    text-shadow: 2px 2px rgb(194, 19, 233);
@@ -121,7 +121,7 @@ nav {
 .sectionp {
    background: url("../images/reformerp.avif") no-repeat center center;
    height: 100%;
-   flex: 1 0 200px;
+   flex: 1 0 250px;
    color: white;
    font-size: x-large;
    text-shadow: 2px 2px rgb(194, 19, 233);
