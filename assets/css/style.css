@@ -360,9 +360,9 @@ footer {
 /* styling for the contact form */
 #contact-section {
    background-image: url("../images/mat-pexels-alexy-almond-3756527.avif");
-   background-repeat: no-repeat;
-   background-size: auto;
-   background-position: center;
+   background-repeat: repeat;
+   background-size: contain;
+   background-position: top;
    width: 100%;
    overflow: scroll;
    min-height: 90rem;
