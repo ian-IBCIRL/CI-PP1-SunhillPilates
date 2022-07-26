@@ -17,7 +17,7 @@ body {
 
 .containerz {
    height: 100vh;
-   width: 98vw;
+   width: 97vw;
    overflow: hidden-x;
    display: flex;
    flex-wrap: wrap;
@@ -228,13 +228,13 @@ aside-one {
 /* headings styling  */
 h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   letter-spacing: 0.30em;
+   letter-spacing: 0.10em;
    color: rgb(194, 19, 233);
 }
 
 h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   letter-spacing: 0.30em;
+   letter-spacing: 0.10em;
    color: rgb(194, 19, 233);
    text-align: center;
 }
