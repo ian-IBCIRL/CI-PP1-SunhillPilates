@@ -18,7 +18,7 @@ body {
 .containerz {
    height: 100vh;
    width: 95vw;
-   overflow: hidden-x;
+   overflow:auto;
    display: flex;
    flex-wrap: wrap;
 }
@@ -344,7 +344,7 @@ ul li {
 
 /* styling for the contact form */
 #contact-section {
-   background-image: url("../images/mat-pexels-alexy-almond-3756527.png");
+   background-image: url("../images/sm-mat-pexels-alexy-almond-3756527.png");
    background-repeat: no-repeat;
    background-size: contain;
    background-position: top;
