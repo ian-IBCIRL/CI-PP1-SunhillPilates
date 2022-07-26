@@ -30,6 +30,7 @@ body {
    width: 100%;
    overflow: hidden;
    position: relative;
+
 }
 
 #hero-image {
@@ -56,9 +57,10 @@ body {
    letter-spacing: 0.25rem;
    padding: 2.5rem;
    background-color: rgb(194, 19, 233);
-   position: relative;
+   position: absolute;
    top: 50%;
    left: 50%;
+   transform: translate(-50%, -50%);
    text-align: center;
    color: white;
    text-transform: uppercase;
@@ -68,6 +70,7 @@ body {
 #welcome-text h2 {
    color: white;
    font-size: 150%;
+   background-color: rgb(194, 19, 233);
 }
 
 #welcome-text h3 {
@@ -76,6 +79,7 @@ body {
    font-weight: bold;
    line-height: 1;
    padding-top: 1.9rem;
+   background-color: rgb(194, 19, 233);
 }
 
 header {
@@ -121,7 +125,7 @@ nav {
    background-color: pink;
    font-size: x-large;
    text-shadow: 1px 1px rgb(68, 66, 68);
-   margin: 20px 0 0 ;
+   margin: 20px 0 0;
    padding: 10px;
 }
 
@@ -140,7 +144,7 @@ aside {
    flex: 1 0 200px;
    color: white;
    background-color: pink;
-   margin: 20px 0 0 ;
+   margin: 20px 0 0;
    overflow: scroll;
    text-shadow: 1px 1px rgb(119, 117, 119);
    font-size: xx-large;
@@ -148,15 +152,9 @@ aside {
 }
 
 #aside-one {
-   background: url("../images/june1.jpg") no-repeat top center;
-   height: 100%;
-   flex: 1 0 200px;
-   background-color: pink;
-   color: white;
-   overflow: scroll;
-   margin: 20px;
-   padding: 20px;
+
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 
@@ -164,7 +162,7 @@ aside {
    font-size: 125%;
    font-weight: 500;
    letter-spacing: 0.25rem;
-   padding: 20px; 
+   padding: 20px;
 }
 
 #menu,
@@ -255,7 +253,7 @@ footer {
    color: white;
    margin: 5px;
    padding: 5px 0 0 0;
-   letter-spacing:normal;
+   letter-spacing: normal;
    bottom: 0;
    left: 0;
    height: 250px;
@@ -354,7 +352,7 @@ footer {
    text-align: left;
    font-weight: 600;
    letter-spacing: 0.07rem;
-   color:black;
+   color: black;
    font-size: 100%;
    background-color: pink;
    border-radius: 10px;
@@ -473,7 +471,15 @@ footer {
    height: 500px;
 
 }
-.needframe { flex-grow: 1; border: none; margin: 0; padding: 0; height: 400px; width: 90%}
+
+.needframe {
+   flex-grow: 1;
+   border: none;
+   margin: 0;
+   padding: 0;
+   height: 400px;
+   width: 90%
+}
 
 .button {
    background-color: darkmagenta;
@@ -530,13 +536,13 @@ footer {
    #contact-panel-container {
       width: 100%;
       display: block;
-      
+
    }
 
    #contact-panel-left {
       width: 75%;
       float: none;
-      margin: auto ;
+      margin: auto;
       padding: 30px;
    }
 
@@ -566,6 +572,7 @@ footer {
    h2 {
       font-size: medium;
    }
+
    #footer-right-panel {
       float: left;
       text-align: left;
