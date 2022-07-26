@@ -162,9 +162,14 @@ The last update to this file was: **25th July 2022**
 
 ### Validator Testing
 
+### WAVE (Web Accessibility Evaluation Tool)
+Good results. FontAwesome Icons hide ARIA labels...
+https://wave.webaim.org/report#/https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/index.html
+
 [HTML Validator](https://validator.w3.org/)
 Good results all round
 
+Lighthouse Validator results.
 <details><summary>Index HTML Results</summary>
 <img src="./assets/images/html-validation-result-1.PNG">
 </details>
