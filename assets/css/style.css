@@ -94,12 +94,9 @@ nav {
    height: 100%;
    flex: 1 0 250px;
    color: black;
-   text-shadow: 2px 2px rgb(194, 19, 233);
-   /* section text */
-   background-color: pink;
-   /* section color */
    margin: 20px;
    scroll-behavior: auto;
+   padding: 10px;
 }
 
 .sectionr {
@@ -108,13 +105,9 @@ nav {
    flex: 1 0 250px;
    color: white;
    font-size: x-large;
-   text-shadow: 2px 2px rgb(194, 19, 233);
-   /* section text */
-   background-color: pink;
-   /* section color */
+   text-shadow: 2px 2px rgb(68, 66, 68);
    margin: 20px;
-   padding: 10px;
-   scroll-behavior: auto;
+   padding: 20px;
 }
 
 
@@ -122,15 +115,11 @@ nav {
    background: url("../images/reformerp.png") no-repeat center center;
    height: 100%;
    flex: 1 0 250px;
-   color: white;
+   color: black;
    font-size: x-large;
-   text-shadow: 2px 2px rgb(194, 19, 233);
-   /* section text */
-   background-color: pink;
-   /* section color */
-   margin: 20px;
+   text-shadow: 1px 1px rgb(68, 66, 68);
+   margin: 20px 0 0 ;
    padding: 10px;
-   scroll-behavior: auto;
 }
 
 
@@ -138,11 +127,7 @@ section {
    height: 100%;
    flex: 1 0 200px;
    color: white;
-   /* section text */
-   background-color: pink;
-   /* section color */
    margin: 20px;
-   scroll-behavior: auto;
 }
 
 
@@ -151,24 +136,18 @@ aside {
    height: 100%;
    flex: 1 0 200px;
    color: white;
-   /* aside text */
-   background-color: rgb(118, 31, 129);
-   /* aside background */
-   margin: 20px;
+   margin: 20px 0 0 ;
    overflow: scroll;
-   padding: 10px;
-   text-shadow: 2px 2px rgb(194, 19, 233);
+   text-shadow: 1px 1px rgb(119, 117, 119);
    font-size: xx-large;
+   padding: 10px;
 }
 
-aside-one {
+#aside-one {
    background: url("../images/june1.jpg") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
    color: white;
-   /* aside text */
-   background-color: rgb(118, 31, 129);
-   /* aside background */
    overflow: scroll;
    margin: 20px;
    padding: 20px;
