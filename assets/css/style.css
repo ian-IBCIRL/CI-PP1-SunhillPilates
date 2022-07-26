@@ -546,18 +546,6 @@ footer {
       height: 300px;
    }
 
-   #footer-right-panel {
-      float: left;
-      text-align: left;
-      margin: 10px;
-   }
-
-   #footer-center-panel {
-      float: left;
-      text-align: left;
-      margin: 10px;
-   }
-
    #contact-panel-container {
       width: 100%;
       display: block;
@@ -597,6 +585,17 @@ footer {
 
    h2 {
       font-size: medium;
+   }
+   #footer-right-panel {
+      float: left;
+      text-align: left;
+      margin: 10px;
+   }
+
+   #footer-center-panel {
+      float: left;
+      text-align: left;
+      margin: 10px;
    }
 
    footer {
