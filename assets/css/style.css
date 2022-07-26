@@ -586,6 +586,15 @@ footer {
    footer {
       height: 400px;
    }
+
+   #contact-panel-left {
+      width: 70%;
+   }
+
+   #contact-panel-right {
+      width: 70%;
+      height: 85%;
+   }
 }
 
 /* Screen sizes from 470px wide or below */
