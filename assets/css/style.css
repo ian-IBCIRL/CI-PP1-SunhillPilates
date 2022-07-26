@@ -100,7 +100,7 @@ nav {
    /* section color */
    margin: 20px;
    scroll-behavior: auto;
-   opacity: 50;
+   opacity: 0.50;
 }
 
 .sectionr {
@@ -173,6 +173,7 @@ aside-one {
    overflow: scroll;
    margin: 20px;
    padding: 20px;
+   opacity: 0.50;
 }
 
 
