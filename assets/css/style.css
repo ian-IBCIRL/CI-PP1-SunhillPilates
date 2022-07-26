@@ -338,7 +338,7 @@ footer {
    background-size: contain;
    background-position: top;
    width: 100%;
-   overflow: hidden;
+   overflow: scroll;
    min-height: 60rem;
 }
 
@@ -385,7 +385,7 @@ footer {
    font-size: 100%;
    font-weight: 900;
    width: 95%;
-   color: red;
+   color: green;
    margin: 0.3rem 0 1.3rem 0;
    border: 0.07rem solid rgb(215, 154, 229);
    border-radius: 2px;
@@ -534,21 +534,20 @@ footer {
 
    #contact-panel-container {
       width: 100%;
-      display: block;
+      height: 100%;
 
    }
 
    #contact-panel-left {
-      width: 75%;
       float: none;
       margin: auto;
       padding: 30px;
    }
 
    #contact-panel-right {
-      width: 75%;
       float: none;
       margin: 4.6875rem auto;
+      height: 70%;
    }
 
 }
