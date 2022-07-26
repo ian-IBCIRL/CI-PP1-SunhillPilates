@@ -107,7 +107,7 @@ nav {
    background: url("../images/reformers2.png") no-repeat center center;
    height: 100%;
    flex: 1 0 250px;
-   color: white;
+   color: black;
    background-color: pink;
    font-size: x-large;
    text-shadow: 2px 2px rgb(68, 66, 68);
@@ -437,14 +437,12 @@ footer {
 
 #codeinstframe {
    margin: 5px;
-   padding: 10px;
-   border: 10px;
-   letter-spacing: 10px;
+   padding: 5px;
+   border: 5px;
    bottom: 0;
    left: 0;
    height: 30rem;
    position: relative;
-   width: 50%;
 }
 
 #video-iframe {
@@ -542,6 +540,7 @@ footer {
       float: none;
       margin: auto;
       padding: 30px;
+      height: 100%;
    }
 
    #contact-panel-right {
@@ -631,6 +630,10 @@ footer {
       font-size: small;
    }
 
+   .contact-panel {
+      height: 80rem;
+   }
+
 }
 
 /* Screen sizes from 330px wide or below */
@@ -659,6 +662,9 @@ footer {
       letter-spacing: normal;
    }
 
+   .contact-panel {
+      height: 100rem;
+   }
    /* anchor h1 styling */
    a h1 {
       text-align: left;
