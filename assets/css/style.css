@@ -321,7 +321,7 @@ footer {
    font-weight: 600;
 }
 
-.classroom-times li {
+ul li {
    list-style-type: none;
 }
 
@@ -339,7 +339,6 @@ footer {
    font-size: 200%;
    margin: 0.5rem;
    color: rgb(194, 19, 233);
-   /* text-decoration: none;*/
 }
 
 
