@@ -58,7 +58,7 @@ body {
    padding: 2.5rem;
    background-color: rgb(194, 19, 233);
    position: absolute;
-   top: 50%;
+   top: 35%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
