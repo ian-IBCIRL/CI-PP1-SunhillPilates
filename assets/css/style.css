@@ -93,26 +93,42 @@ nav {
 }
 
 .sectionc {
-   background: url("../images/june1.jpg") no-repeat top center;
-   height: 100%;
    flex: 1 0 280px;
    color: black;
-   margin: 20px;
+   margin: 10px;
    scroll-behavior: auto;
    background-color: pink;
    padding: 10px;
 }
+
+#jclassheader {
+   background: url("../images/june1.jpg") no-repeat top center;
+   height: 100%;
+   filter: brightness(180%);
+   position: relative;
+   width: 100%;
+   background-size: cover;
+ }
+
+ #needinfo{
+   filter: brightness(30%) !important;
+ }
+
+ #refinfo{
+   filter: brightness(30%) !important;
+ }
 
 .sectionr {
    background: url("../images/reformers2.png") no-repeat center center;
    height: 100%;
    flex: 1 0 250px;
    color: black;
+   filter: brightness(180%);
    background-color: pink;
    font-size: x-large;
    text-shadow: 1px 1px white;
    margin: 10px;
-   padding: 10px;
+   padding: 15px;
 }
 
 
@@ -121,11 +137,12 @@ nav {
    height: 100%;
    flex: 1 0 250px;
    color: black;
+   filter: brightness(180%);
    background-color: pink;
    font-size: x-large;
    text-shadow: 1px 1px white;
-   margin: 20px 0 0;
-   padding: 40px 0 0 50px;
+   margin: 10px 0 0;
+   padding: 15px;
 }
 
 
@@ -142,6 +159,7 @@ aside {
    height: 100%;
    flex: 1 0 200px;
    color: black;
+   filter: brightness(180%);
    background-color: pink;
    margin: 20px 0 0;
    overflow: scroll;
@@ -483,6 +501,7 @@ footer {
    background-color: darkmagenta;
    border: solid 2px;
    color: white;
+   filter: brightness(70%) !important; 
    padding: 1.3rem;
    text-align: center;
    text-size-adjust: auto;
