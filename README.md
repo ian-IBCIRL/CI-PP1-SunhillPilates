@@ -155,6 +155,7 @@ The last update to this file was: **25th July 2022**
 -   [Google Fonts:](https://fonts.google.com/) for 'Lato' and 'Oswald' fonts.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for visual cues.
 -   [Convertio JPG to avif:](https://convertio.co/jpg-avif/) to convert JPG to avif images.
+-   [TinyPNG](https://tinypng.com/) to reduce the size of PNG images and improve Lighthouse score.
 
 ## Testing 
 * [Back to index](#index) 
@@ -169,7 +170,8 @@ https://wave.webaim.org/report#/https://ian-ibcirl.github.io/CI-PP1-SunhillPilat
 [HTML Validator](https://validator.w3.org/)
 Good results all round
 
-Lighthouse Validator results.
+[Google Chrome Lighthouse Validator results.](https://github.com/GoogleChrome/lighthouse/blob/HEAD/docs/user-flows.md) 
+
 <details><summary>Index HTML Results</summary>
 <img src="./assets/images/html-validation-result-1.PNG">
 </details>
