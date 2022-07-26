@@ -52,35 +52,39 @@
                         <label for="feedback-message">Message / Feedback</label>
                         <textarea id="feedback-message" class="text-input text-input-box" name="message"
                             placeholder="What would you like to know about Sunhill Pilates? Give us your feedback - let us know what you'd like to see here."></textarea>
-                            <p>
-                                Any specific class type?
-                            </p>
-                            <input type="radio" id="general-interest" name="interest-type" value="general" required checked>
+                        <p>
+                            Any specific class type?
+                        </p>
+                        <div id="typeofclass">
                             <label for="interest-type" class="radio-label">General Interest</label>
+                            <input type="radio" id="general-interest" name="interest-type" value="general" required
+                                checked>
 
-                            <input type="radio" id="privateone" name="interest-type" value="privateone">
                             <label for="interest-type" class="radio-label">Private 1:1</label>
+                            <input type="radio" id="privateone" name="interest-type" value="privateone">
                             <br>
-                            <input type="radio" id="natal" name="interest-type" value="natal">
                             <label for="interest-type">Pre/Post Natal</label>
-                            
-                            <input type="radio" id="oversixty" name="interest-type" value="over">
+                            <input type="radio" id="natal" name="interest-type" value="natal">
+
                             <label for="interest-type">Over 60s</label>
-                            <br><br>
-                            <p>
+                            <input type="radio" id="oversixty" name="interest-type" value="over">
+                        </div><br><br>
+                        <p>
                             Sign up to mailing list for discount classes & offers?
                         </p>
-                        <input type="radio" id="opt-in" name="consent" value="yes" required>
-                        <label for="opt-in" class="radio-label">Count me in</label>
-                        <input type="radio" id="opt-out" name="consent" value="no" checked>
-                        <label for="opt-out">No thanks</label>
-                        <input type="submit" value="Send" class="button">
+                        <div id="mktsignup">
+                            <label for="opt-in" class="radio-label">Count me in</label>
+                            <input type="radio" id="opt-in" name="consent" value="yes" required>
+                            <label for="opt-out" class="radio-label">No thanks</label>
+                            <input type="radio" id="opt-out" name="consent" value="no" checked>
+                            <input type="submit" value="Send" class="button">
+                        </div>
                         <br>
                     </form>
                     <br><br>
                     <div id="codeinstframe">
                         <!-- when the form is submitted, the server response will appear in this iframe -->
-                        <iframe title="Code Institute Form Results" name="my_iframe" ></iframe>
+                        <iframe title="Code Institute Form Results" name="my_iframe"></iframe>
                     </div>
                 </div>
                 <div class="contact-panel" id="contact-panel-right">
@@ -91,7 +95,7 @@
                         </iframe>
                     </div>
                     <br><br>
-                    <div> 
+                    <div>
                         <br>
                         Sunhill Pilates<br>
                         Sunhill,<br>
