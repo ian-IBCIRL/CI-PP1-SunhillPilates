@@ -70,16 +70,15 @@ body {
 #welcome-text h2 {
    color: white;
    font-size: 150%;
-   background-color: rgb(194, 19, 233);
+
 }
 
 #welcome-text h3 {
    color: white;
    font-size: 250%;
-   font-weight: bold;
    line-height: 1;
    padding-top: 1.9rem;
-   background-color: rgb(194, 19, 233);
+
 }
 
 header {
