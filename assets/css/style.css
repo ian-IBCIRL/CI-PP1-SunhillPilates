@@ -345,11 +345,11 @@ ul li {
 /* styling for the contact form */
 #contact-section {
    background-image: url("../images/sm-mat-pexels-alexy-almond-3756527.png");
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-size: contain;
    background-position: top;
-   width: 100%;
-   overflow:auto;
+   width: 93%;
+   overflow: auto;
    min-height: 60rem;
 }
 
@@ -367,7 +367,7 @@ ul li {
    background-color: pink;
    border-radius: 10px;
    padding: 1.8rem;
-   height: 55rem;
+   height: 65rem;
 }
 
 .contact-panel h2 {
@@ -642,7 +642,7 @@ ul li {
    }
 
    .contact-panel {
-      height: 80rem;
+      height: 200rem;
    }
 
 }
@@ -674,7 +674,7 @@ ul li {
    }
 
    .contact-panel {
-      height: 100rem;
+      height: 200rem;
    }
    /* anchor h1 styling */
    a h1 {
