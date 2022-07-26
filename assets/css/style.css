@@ -96,6 +96,7 @@ nav {
    color: black;
    margin: 20px;
    scroll-behavior: auto;
+   background-color: pink;
    padding: 10px;
 }
 
@@ -136,6 +137,7 @@ aside {
    height: 100%;
    flex: 1 0 200px;
    color: white;
+   background-color: pink;
    margin: 20px 0 0 ;
    overflow: scroll;
    text-shadow: 1px 1px rgb(119, 117, 119);
@@ -147,6 +149,7 @@ aside {
    background: url("../images/june1.jpg") no-repeat top center;
    height: 100%;
    flex: 1 0 200px;
+   background-color: pink;
    color: white;
    overflow: scroll;
    margin: 20px;
@@ -531,11 +534,10 @@ footer {
       
    }
 
-
    #contact-panel-left {
       width: 75%;
       float: none;
-      margin: auto;
+      margin: auto ;
       padding: 30px;
    }
 
