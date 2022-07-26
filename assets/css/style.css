@@ -345,11 +345,11 @@ ul li {
 /* styling for the contact form */
 #contact-section {
    background-image: url("../images/mat-pexels-alexy-almond-3756527.png");
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-size: contain;
    background-position: top;
    width: 100%;
-   overflow: scroll;
+   overflow:auto;
    min-height: 60rem;
 }
 
