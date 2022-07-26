@@ -93,14 +93,13 @@ nav {
    background: url("../images/june1.jpg") no-repeat top center;
    height: 100%;
    flex: 1 0 250px;
-   color: white;
+   color: black;
    text-shadow: 2px 2px rgb(194, 19, 233);
    /* section text */
    background-color: pink;
    /* section color */
    margin: 20px;
    scroll-behavior: auto;
-   opacity: 0.50;
 }
 
 .sectionr {
@@ -173,7 +172,6 @@ aside-one {
    overflow: scroll;
    margin: 20px;
    padding: 20px;
-   opacity: 0.50;
 }
 
 
@@ -232,7 +230,6 @@ h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
    color: rgb(194, 19, 233);
-   opacity: 100%;
 }
 
 h2 {
@@ -514,7 +511,7 @@ footer {
    box-shadow: 0.3rem 0.6rem rgb(215, 154, 229);
    margin-top: 1.5rem;
    text-shadow: none;
-   opacity: 100;
+   opacity: 1;
 }
 
 .button:hover {
