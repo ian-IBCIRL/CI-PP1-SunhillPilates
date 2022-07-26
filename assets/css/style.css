@@ -17,7 +17,7 @@ body {
 
 .containerz {
    height: 100vh;
-   width: 97vw;
+   width: 95vw;
    overflow: hidden-x;
    display: flex;
    flex-wrap: wrap;
@@ -105,10 +105,11 @@ nav {
    height: 100%;
    flex: 1 0 250px;
    color: white;
+   background-color: pink;
    font-size: x-large;
    text-shadow: 2px 2px rgb(68, 66, 68);
-   margin: 20px;
-   padding: 20px;
+   margin: 10px;
+   padding: 10px;
 }
 
 
@@ -117,6 +118,7 @@ nav {
    height: 100%;
    flex: 1 0 250px;
    color: black;
+   background-color: pink;
    font-size: x-large;
    text-shadow: 1px 1px rgb(68, 66, 68);
    margin: 20px 0 0 ;
@@ -154,6 +156,7 @@ aside {
    overflow: scroll;
    margin: 20px;
    padding: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -244,10 +247,6 @@ a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.20em;
    color: rgb(194, 19, 233);
-}
-
-aside-one {
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer {
