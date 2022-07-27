@@ -26,7 +26,8 @@ body {
 
 /* hero image and text */
 #hero-outer {
-   height: 56rem;
+   height: 120%;
+   flex: 1 0 240px;
    width: 100%;
    overflow: hidden;
    position: relative;
@@ -59,7 +60,7 @@ body {
    padding: 2.5rem;
    background-color: rgb(64, 47, 95);
    position: absolute;
-   top: 35%;
+   top: 24%;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
@@ -171,7 +172,6 @@ aside {
    background-color: rgb(165, 115, 179);
    margin: 10px 0 0;
    overflow: hidden;
-
    font-size: large;
    background-size: cover;
 }
