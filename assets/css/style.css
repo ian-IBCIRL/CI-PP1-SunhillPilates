@@ -162,10 +162,9 @@ nav {
    flex: 1 0 250px;
    color: black;
    background-color: rgb(165, 115, 179);
-   font-size: x-large;
+   font-size: large;
    margin: 10px;
    padding: 15px;
-   font-weight: bold;
    background-size: cover;
 }
 
@@ -175,10 +174,9 @@ nav {
    flex: 1 0 250px;
    color: black;
    background-color: rgb(165, 115, 179);
-   font-size: x-large;
+   font-size: large;
    margin: 10px 0 0;
    padding: 15px;
-   font-weight: bold;
    background-size: cover;
 }
 
