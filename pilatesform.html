@@ -12,8 +12,14 @@
     <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"-->
     <script src="https://kit.fontawesome.com/7e84f238a1.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--My Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <title>Sunhill Pilates - Contact Us</title>
 </head>
 
@@ -56,37 +62,42 @@
                             Any specific class type?
                         </p>
                         <div id="typeofclass">
-                            <label for="interest-type" class="radio-label">General Interest</label>
-                            <input type="radio" id="general-interest" name="interest-type" value="general" required
-                                checked>
+                            <fieldset>
+                                <label for="interest-type" class="radio-label">General Interest</label>
+                                <input type="radio" id="general-interest" name="interest-type" value="general" required
+                                    checked>
 
-                            <label for="interest-type" class="radio-label">Private 1:1</label>
-                            <input type="radio" id="privateone" name="interest-type" value="privateone">
-                            <br>
-                            <label for="interest-type">Pre/Post Natal</label>
-                            <input type="radio" id="natal" name="interest-type" value="natal">
+                                <label for="interest-type" class="radio-label">Private 1:1</label>
+                                <input type="radio" id="privateone" name="interest-type" value="privateone">
+                                <br>
+                                <label for="interest-type">Pre/Post Natal</label>
+                                <input type="radio" id="natal" name="interest-type" value="natal">
 
-                            <label for="interest-type">Over 60s</label>
-                            <input type="radio" id="oversixty" name="interest-type" value="over">
+                                <label for="interest-type">Over 60s</label>
+                                <input type="radio" id="oversixty" name="interest-type" value="over">
+                            </fieldset>
                         </div><br>
                         <p>
                             Sign up to mailing list for discount classes & offers?
                         </p>
                         <div id="mktsignup">
-                            <label for="opt-in" class="radio-label">Count me in</label>
-                            <input type="radio" id="opt-in" name="consent" value="yes" required>
-                            <br>
-                            <label for="opt-out" class="radio-label">No thanks</label>
-                            <input type="radio" id="opt-out" name="consent" value="no" checked>
-                            <br>
-                            <input type="submit" value="Send" class="button">
+                            <fieldset>
+                                <label for="opt-in" class="radio-label">Count me in</label>
+                                <input type="radio" id="opt-in" name="consent" value="yes" required>
+                                <br>
+                                <label for="opt-out" class="radio-label">No thanks</label>
+                                <input type="radio" id="opt-out" name="consent" value="no" checked>
+                                <br>
+                                <input type="submit" value="Send" class="button">
+                            </fieldset>
                         </div>
                         <br>
                     </form>
                     <br>
                     <div id="codeinstframe">
                         <!-- when the form is submitted, the server response will appear in this iframe -->
-                        <iframe title="Code Institute Form Results" name="my_iframe" style="overflow:hidden;height:40%;width:100%;font-size:xx-small">
+                        <iframe title="Code Institute Form Results" name="my_iframe"
+                            style="overflow:hidden;height:40%;width:100%;font-size:xx-small">
 
                         </iframe>
                     </div>
