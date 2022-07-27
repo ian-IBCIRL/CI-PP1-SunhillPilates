@@ -26,7 +26,7 @@ body {
 
 /* hero image and text */
 #hero-outer {
-   height: 38rem;
+   height: 56rem;
    width: 100%;
    overflow: hidden;
    position: relative;
@@ -68,6 +68,22 @@ body {
    opacity: 85%;
 }
 
+
+#welcome-text2 {
+   letter-spacing: 0.1rem;
+   padding: 1.5rem;
+   background-color:  rgb(27, 67, 10);
+   position: relative;
+   top: 5%;
+   left: 5%;
+   right: 5%;
+   bottom: 5%;
+   text-align: center;
+   color: white;
+   opacity: 85%;
+}
+
+
 #welcome-text h2 {
    color: white;
    font-size: 110%;
@@ -84,7 +100,7 @@ body {
 header {
    height: 150px;
    flex: 1 0 100%;
-   color: rgb(27, 67, 10);
+   color: white;
    background-color: rgb(165, 115, 179);
 }
 
@@ -149,16 +165,15 @@ section {
 
 aside {
    background: url("../images/june1l.jpg") no-repeat top center;
-   height: 100%;
-   flex: 1 0 200px;
+   height: 120%;
+   flex: 1 0 240px;
    color: black;
    background-color: rgb(165, 115, 179);
-   margin: 20px 0 0;
-   overflow: scroll;
+   margin: 10px 0 0;
+   overflow: hidden;
    text-shadow: 1px 1px white;
-   font-size: x-large;
-   font-weight: bold;
-   padding: 10px;
+   font-size: large;
+   background-size: cover;
 }
 
 #aside-one {
@@ -244,7 +259,7 @@ a h1 {
    text-decoration: none;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.30em;
-   color: rgb(27, 67, 10);
+   color: white;
    height: 3rem;
 }
 
@@ -258,7 +273,7 @@ a h1:hover {
 footer {
    text-align: center;
    background-color: rgb(139, 173, 204);
-   color: rgb(27, 67, 10);
+   color: white;
    margin: 5px;
    padding: 5px 0 0 0;
    letter-spacing: normal;
@@ -268,6 +283,10 @@ footer {
    height: 250px;
    position: relative;
    width: 100%;
+}
+
+footer a {
+   color: white
 }
 
 #footer-group {
