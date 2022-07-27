@@ -79,6 +79,7 @@ body {
    left: 5%;
    right: 5%;
    bottom: 5%;
+   width: 77%;
    text-align: center;
    color: white;
    opacity: 85%;
@@ -120,6 +121,7 @@ nav {
    text-align: center;
    color: white;
    opacity: 65%;
+   width: 80%;
 }
 
 #needinfo {
@@ -134,6 +136,7 @@ nav {
    text-align: center;
    color: white;
    opacity: 75%;
+   width: 80%;
 }
 
 
@@ -175,7 +178,7 @@ nav {
    color: black;
    background-color: rgb(165, 115, 179);
    font-size: large;
-   margin: 10px 0 0;
+   margin: 10px;
    padding: 15px;
    background-size: cover;
 }
@@ -637,7 +640,7 @@ ul li {
    #footer-right-panel {
       float: left;
       text-align: left;
-      margin: 0px;
+      margin: 10px;
    }
 
    #footer-center-panel {
