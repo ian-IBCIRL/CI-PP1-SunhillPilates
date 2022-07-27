@@ -88,7 +88,6 @@ body {
 #welcome-text h2 {
    color: white;
    font-size: 110%;
-
 }
 
 #welcome-text h3 {
@@ -108,6 +107,36 @@ header {
 nav {
    padding: 10px;
 }
+
+#refinfo {
+   letter-spacing: 0.1rem;
+   padding: 1.5rem;
+   background-color:  rgb(27, 67, 10);
+   position: relative;
+   top: 25%;
+   left: 5%;
+   right: 5%;
+   bottom: 5%;
+   text-align: center;
+   color: white;
+   opacity: 65%;
+}
+
+#needinfo {
+   letter-spacing: 0.1rem;
+   padding: 1.5rem;
+   background-color:  rgb(27, 67, 10);
+   position: relative;
+   top: 25%;
+   left: 5%;
+   right: 5%;
+   bottom: 5%;
+   text-align: center;
+   color: white;
+   opacity: 75%;
+}
+
+
 
 .sectionc {
    flex: 1 0 280px;
@@ -134,7 +163,6 @@ nav {
    color: black;
    background-color: rgb(165, 115, 179);
    font-size: x-large;
-   text-shadow: 1px 1px white;
    margin: 10px;
    padding: 15px;
    font-weight: bold;
@@ -148,7 +176,6 @@ nav {
    color: black;
    background-color: rgb(165, 115, 179);
    font-size: x-large;
-   text-shadow: 1px 1px white;
    margin: 10px 0 0;
    padding: 15px;
    font-weight: bold;
@@ -652,7 +679,7 @@ ul li {
    }
 
    .sectionc, .sectionp, .sectionr {
-      margin: 0;
+      margin: auto;
       padding: 0;
    }
 
@@ -688,7 +715,7 @@ ul li {
 /* Screen sizes from 330px wide or below */
 @media screen and (max-width: 330px) {
    * {
-      margin: 0;
+      margin: auto;
       padding: 0;
    }
 
