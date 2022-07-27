@@ -252,7 +252,7 @@ a h1 {
 a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.20em;
-   color: rgb(194, 19, 233);
+   color:  rgb(139, 173, 204);
 }
 
 footer {
@@ -302,7 +302,6 @@ footer {
 
 #hours-group {
    text-align: center;
-
 }
 
 #hours-center-panel {
