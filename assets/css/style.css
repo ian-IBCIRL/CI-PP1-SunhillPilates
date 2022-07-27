@@ -104,12 +104,10 @@ nav {
 #jclassheader {
    background: url("../images/june1l.jpg") no-repeat top center;
    height: 100%;
-
    position: relative;
    width: 100%;
    background-size: cover;
  }
-
 
 .sectionr {
    background: url("../images/reformers2l.png") no-repeat top center;
@@ -123,7 +121,6 @@ nav {
    padding: 15px;
    font-weight: bold;
 }
-
 
 .sectionp {
    background: url("../images/reformerpl.png") no-repeat top center;
@@ -563,6 +560,16 @@ ul li {
 
 /* Screen sizes from 780px wide or below */
 @media screen and (max-width: 780px) {
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   .sectionc, .sectionp, .sectionr {
+      margin: 0;
+      padding: 0;
+   }
+
    #menu {
       clear: left;
       float: left;
@@ -583,7 +590,7 @@ ul li {
    #footer-right-panel {
       float: left;
       text-align: left;
-      margin: 10px;
+      margin: 0px;
    }
 
    #footer-center-panel {
@@ -608,13 +615,23 @@ ul li {
 
 /* Screen sizes from 470px wide or below */
 @media screen and (max-width: 470px) {
+
+   * {
+      margin: 0;
+      padding: 0;
+   }
    #menu {
       clear: left;
       float: left;
       margin-left: 2.25rem;
       margin-bottom: 2.25rem;
       line-height: 1.50rem;
-      width: 80%;
+      width: 70%;
+   }
+
+   .sectionc, .sectionp, .sectionr {
+      margin: 0;
+      padding: 0;
    }
 
    header {
@@ -648,6 +665,15 @@ ul li {
 
 /* Screen sizes from 330px wide or below */
 @media screen and (max-width: 330px) {
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   .sectionc, .sectionp, .sectionr {
+      margin: 0;
+      padding: 0;
+   }
 
    #menu {
       clear: left;
@@ -655,7 +681,7 @@ ul li {
       margin-left: 2.25rem;
       margin-bottom: 2.25rem;
       line-height: 1.50rem;
-      width: 80%;
+      width: 70%;
    }
 
    header {
