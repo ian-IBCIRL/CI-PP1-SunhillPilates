@@ -68,7 +68,7 @@
 
                             <label for="interest-type">Over 60s</label>
                             <input type="radio" id="oversixty" name="interest-type" value="over">
-                        </div><br><br>
+                        </div><br>
                         <p>
                             Sign up to mailing list for discount classes & offers?
                         </p>
@@ -77,14 +77,17 @@
                             <input type="radio" id="opt-in" name="consent" value="yes" required>
                             <label for="opt-out" class="radio-label">No thanks</label>
                             <input type="radio" id="opt-out" name="consent" value="no" checked>
+                            <br>
                             <input type="submit" value="Send" class="button">
                         </div>
                         <br>
                     </form>
-                    <br><br>
+                    <br>
                     <div id="codeinstframe">
                         <!-- when the form is submitted, the server response will appear in this iframe -->
-                        <iframe title="Code Institute Form Results" name="my_iframe"></iframe>
+                        <iframe title="Code Institute Form Results" name="my_iframe" style="overflow:hidden;height:40%;width:100%;font-size:xx-small">
+
+                        </iframe>
                     </div>
                 </div>
                 <div class="contact-panel" id="contact-panel-right">
