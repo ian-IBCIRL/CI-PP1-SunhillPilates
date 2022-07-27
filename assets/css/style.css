@@ -112,7 +112,7 @@ nav {
 
 
 .sectionr {
-   background: url("../images/reformers2l.png") no-repeat center center;
+   background: url("../images/reformers2l.png") no-repeat top center;
    height: 100%;
    flex: 1 0 250px;
    color: black;
@@ -126,7 +126,7 @@ nav {
 
 
 .sectionp {
-   background: url("../images/reformerpl.png") no-repeat center center;
+   background: url("../images/reformerpl.png") no-repeat top center;
    height: 100%;
    flex: 1 0 250px;
    color: black;
