@@ -6,7 +6,7 @@
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
-![Mockup](assets/images/responsive.JPG)
+![Mockup](assets/images/responsive.png)
 
 See here for the current website: https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/
 
