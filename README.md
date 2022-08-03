@@ -65,8 +65,33 @@ The last update to this file was: **27th July 2022**
 
     - The navigation bar has an initial consistent look and placement on the main page, with all three pages (when completed) of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Classes and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Classes and Contact links move to under the Logo.
 
-- __Fxy Footer__
+-   __F02 Hero Section & Business services__
+    - The section on the main page is a first hook for the user. 
+It contains a short description of the business and classes,
+so that the user learns what classes are on offer.
+Buttons services of the business and additional information about the
+busines.
+This page also includes photos for additional visual effect.  
 
+- __F03 Classes__
+    - This page contains the business's list of classes and is divided into types of class. 
+
+
+- __F04 Online Video__
+    - On this page is a short sample video to encourage the user to build their interest in paid for classes.
+
+
+- __F05 Pilates contact form__
+    - This page has a contact form that allows you to send a message and respond to information requested.  
+The form also has a Google map that shows where the classes and the business are located.
+
+
+- __F06 404 Page__
+    - The 404 page is the page for displaying the HTTP 404 error message. 
+It informs the user that there is no page at the URL entered.  
+This page has all the navigation, footer and a button so that the user can quickly return to the home page or other working page.
+
+- __F07 Footer__
     - The footer will be featured on all three pages and will be identical on each page making it easy to use.  It will contain three sections :
 
         - Class Times - by putting the class times in the footer on each page allows the user to quickly and easily find this information and begin planning their participation.
@@ -77,9 +102,13 @@ The last update to this file was: **27th July 2022**
 
         - Return Home - the footer also has a link to go back to the top of the current page for ease and speed of navigation back to the top.
 
+
 - __How the features correlate with the User Stories__
 
-    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F0X ** CHANGE FOR PUSH.  The chart below shows how the user stories correlate to features, showing features that support the user stories.
+    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F0X 
+    
+    ** CHANGE FOR PUSH.  
+    The chart below shows how the user stories correlate to features, showing features that support the user stories.
 
 	- insert chart here 
 
@@ -152,6 +181,7 @@ The last update to this file was: **27th July 2022**
 -   [Balsamiq:](https://balsamiq.com/) for wireframes during the design process.
 -   [Git:](https://git-scm.com/) was used for version control in the Gitpod environment to commit to Git, with comments, and Push to GitHub and publish to the public cloud.
 -   [GitHub:](https://github.com/) is used as the respository for the source code, and GitPages for hosting.
+- [ Chrome DevTools](https://developer.chrome.com/docs/devtools/) for checking and testing the site.
 -   [Google Fonts:](https://fonts.google.com/) for 'Lato' and 'Oswald' fonts.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for visual cues.
 -   [Convertio JPG to avif:](https://convertio.co/jpg-avif/) to convert JPG to avif images.
@@ -205,7 +235,156 @@ No Error Found. This document validates as CSS level 3 + SVG !
 
 - This testing table shows test cases, the results and reference to the Feature ID which the test case proved:
 
-  ![Test Results](assets/images/css-validation-result-1.PNG)
+### Testing visitor stories
+
+1. As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                     | **Actual Result** |
+|---------------------------------|-------------------------------------|-----------------------------------------------------------------------------------------|-------------------|
+| Hero Section & business services| First section displayed on the page | visitor can see immediately and read what type of classes they can expect from business | PASS              |
+| Classes                         | Check the list of classes           | Find what type of classes business has to offer                                         | PASS              |
+| Classes                         | Click on the Classes menu item      | visitor is able to see some examples of the classes                                     | PASS              |
+
+2. As a First Time Visitor, I want to be able to easily find where the organisation is located.
+
+| **Feature**    | **Action**             | **Expected Result**                                                                                                                          | **Actual Result** |
+|----------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Navigation Bar | Click on logo or links | Navbar is <strong>easy to see and use.</strong> The page is always at the top. The logo on the top leads to the home page.                   | PASS              |
+| Buttons        | Click on the button    | visitor can find buttons in hero section, with 404 page for improved site navigation                                                         | PASS              |
+
+3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+| **Feature**     | **Action**                                | **Expected Result**                                      | **Actual Result** |
+|-----------------|-------------------------------------------|----------------------------------------------------------|-------------------|
+| Classes Subpage | Click button / link to go to Classes page | visitor can easily find the classes.                     | PASS              |
+
+4. As a First Time Visitor, I want to be able to easily navigate to and view a list of classes, requirements and services.
+
+| **Feature**      | **Action**                     | **Expected Result**                                          | **Actual Result** |
+|------------------|--------------------------------|--------------------------------------------------------------|-------------------|
+| business services| Scroll down on home page       | visitor can see information about business services.         | PASS              |
+
+5. As a First Time Visitor, I want to be able to easily find out more about who is running the business, and figure out any pre-requisites for participating.
+
+| **Feature** | **Action**                       | **Expected Result**                                         | **Actual Result** |
+|-------------|----------------------------------|-------------------------------------------------------------|-------------------|
+| Google Map  | Click on "Contact" on the navbar | visitor can see Google Map with pinned business location.   | PASS              |
+| Footer      | Scroll down on any page          | visitor can see the address of the business.                | PASS              |
+
+6. As a First Time Visitor, I want to be able to view sample videos of instruction or pre-requisites.
+
+| **Feature** | **Action**                            | **Expected Result**                               | **Actual Result** |
+|-------------|---------------------------------------|---------------------------------------------------|-------------------|
+| Classes     | Click Need and Online Button          | visitor can see a sample class and pre-reqs.      | PASS              |
+
+7. As a first time visitor, I want to know the business contact details.
+
+| **Feature** | **Action**              | **Expected Result**                               | **Actual Result** |
+|-------------|-------------------------|---------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the details of the business.         | PASS              |
+| Footer      | Scroll down on any page | visitor can see the opening hours of the business.   | PASS              |
+
+    -   #### B. Returning Visitor services
+
+1. As a Returning Visitor, I want to be able to access and view the list of Classes quickly and easily.
+
+| **Feature**     | **Action**                              | **Expected Result**                      | **Actual Result** |
+|-----------------|-----------------------------------------|------------------------------------------|-------------------|
+| Classes subpage | Click on Classes on the Navbar          | visitor can quickly move to Classes section | PASS              |
+| Classes button  | Click on Classes button in Hero Section | visitor can quickly move to Classes section | PASS              |
+
+2. As a Returning Visitor, I want to be able to check class times quickly and easily.
+
+| **Feature** | **Action**              | **Expected Result**                               | **Actual Result** |
+|-------------|-------------------------|---------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the opening hours of the business.   | PASS              |
+
+
+3. As a returning visitor, I want to check the contact details.
+
+| **Feature** | **Action**              | **Expected Result**                                 | **Actual Result** |
+|-------------|-------------------------|-----------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the contact details of the business.   | PASS              |
+
+4. As a Returning Visitor, I want to be able to contact the instructor or business owner to ask questions or give feedback.
+| **Feature**  | **Action**                       | **Expected Result**                                                      | **Actual Result** |
+|--------------|----------------------------------|--------------------------------------------------------------------------|-------------------|
+| Contact form | Click on "Contact" on the Navbar | visitor can quickly move to the contact section and see online contact form | PASS              |
+
+
+5. As a returning visitor, I want to check if business have any social media.
+
+| **Feature** | **Action**              | **Expected Result**                                  | **Actual Result** |
+|-------------|-------------------------|------------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the links for business's social media | PASS             |
+
+
+6. As a returning visitor, I want to contact the business online.
+
+| **Feature**  | **Action**                       | **Expected Result**                                                         | **Actual Result** |
+|--------------|----------------------------------|-----------------------------------------------------------------------------|-------------------|
+| Contact form | Click on "Contact" on the Navbar | visitor can quickly move to the contact section and see online contact form | PASS              |
+
+7. As a returning visitor, I want to check the phone number for quick contact the business.
+
+| **Feature** | **Action**              | **Expected Result**                         | **Actual Result** |
+|-------------|-------------------------|---------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the business's phone number | PASS              |
+
+8. As a Returning Visitor, I want to be able to view videos of instruction.
+
+| **Feature** | **Action**                            | **Expected Result**                               | **Actual Result** |
+|-------------|---------------------------------------|---------------------------------------------------|-------------------|
+| Classes     | Click Need and Online Button          | visitor can see a sample class and pre-reqs.      | PASS              |
+
+    -   #### C. Frequent visitor services
+1. As a Frequent visitor, I want to be able to sign-up easily for more classes, discounts and check on my progress.
+
+| **Feature**  | **Action**                       | **Expected Result**                                                         | **Actual Result** |
+|--------------|----------------------------------|-----------------------------------------------------------------------------|-------------------|
+| Contact form | Click on "Contact" on the Navbar | visitor can quickly move to the contact section and see online contact form | PASS              |
+
+
+2. As a business owner, I want visitors to easily navigate the website.
+
+| **Feature**    | **Action**             | **Expected Result**                                                                                                                          | **Actual Result** |
+|----------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Navigation Bar | Click on logo or links | Navbar is <strong>easy to see and use.</strong> While scrolling, the page is always at the top. The logo on the left leads to the home page. | PASS              |
+| Buttons        | Click on the button    | visitor can find buttons in hero section and 404 page for improved site navigation                                                           | PASS              |
+
+
+3. As a business owner, I want visitors to easily find the business menu.
+
+| **Feature**  | **Action**                           | **Expected Result**                   | **Actual Result** |
+|--------------|--------------------------------------|---------------------------------------|-------------------|
+| Menu subpage | Click on "Menu" on the Navbar        | visitor can quickly move to menu section | PASS              |
+| Menu button  | Click on "View Menu" in Hero Section | visitor can quickly move to menu section | PASS              |
+4. As a business owner, I want to provide contact details for visitors.
+
+| **Feature** | **Action**              | **Expected Result**                                | **Actual Result** |
+|-------------|-------------------------|----------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the contact details of the business | PASS             |
+
+
+5. As a business owner, I want to provide online contact form.
+
+| **Feature**  | **Action**                       | **Expected Result**                                                         | **Actual Result** |
+|--------------|----------------------------------|-----------------------------------------------------------------------------|-------------------|
+| Contact form | Click on "Contact" on the Navbar | visitor can quickly move to the contact section and see online contact form | PASS              |
+
+6. As a business owner, I want to provide links to business's social media.
+
+| **Feature** | **Action**              | **Expected Result**                                   | **Actual Result** |
+|-------------|-------------------------|-------------------------------------------------------|-------------------|
+| Footer      | Scroll down on any page | visitor can see the links for business's social media | PASS              |
+
+7. As a business owner, I want to show videos of Pilates classes online.
+
+| **Feature**     | **Action**                                     | **Expected Result**                                                | **Actual Result** |
+|-----------------|------------------------------------------------|--------------------------------------------------------------------|-------------------|
+| Video subpage   | Click on "Online Classes" on the Class buttons | visitor can quickly move to video page and see a video of Pilates  | PASS              |
+
+
 
 ### Known bugs
 
