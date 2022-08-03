@@ -19,6 +19,7 @@ body {
    height: 100vh;
    width: 97vw;
    overflow:auto;
+   overflow-x:hidden;
    display: flex;
    flex-wrap: wrap;
 }
