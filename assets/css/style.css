@@ -690,10 +690,6 @@ ul li {
       height: 200px;
    }
 
-   footer {
-      height: 600px;
-   }
-
    h1 {
       font-size: 100%;
       letter-spacing: normal;
@@ -733,11 +729,10 @@ ul li {
    header {
       height: 250px;
    }
-
+   
    footer {
-      height: 700px;
+      height: 500px;
    }
-
 
    h1 {
       font-size: 100%;
