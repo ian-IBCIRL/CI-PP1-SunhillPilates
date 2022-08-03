@@ -355,10 +355,10 @@ No Error Found. This document validates as CSS level 3 + SVG !
 
 3. As a business owner, I want visitors to easily find the business menu.
 
-| **Feature**  | **Action**                           | **Expected Result**                   | **Actual Result** |
-|--------------|--------------------------------------|---------------------------------------|-------------------|
-| Menu subpage | Click on "Menu" on the Navbar        | visitor can quickly move to menu section | PASS              |
-| Menu button  | Click on "View Menu" in Hero Section | visitor can quickly move to menu section | PASS              |
+| **Feature**     | **Action**                           | **Expected Result**                         | **Actual Result** |
+|-----------------|--------------------------------------|---------------------------------------------|-------------------|
+| Classes subpage | Click on "Classes" on the Navbar     | visitor can quickly move to Classes section | PASS              |
+| Classes button  | Click on "Classes" in Hero Section   | visitor can quickly move to Classes section | PASS              |
 4. As a business owner, I want to provide contact details for visitors.
 
 | **Feature** | **Action**              | **Expected Result**                                | **Actual Result** |
