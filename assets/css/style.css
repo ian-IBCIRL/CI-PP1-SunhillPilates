@@ -398,7 +398,7 @@ ul li {
    width: 95%;
    overflow: auto;
    overflow-x: hidden;
-   min-height: 120rem;
+   min-height: 60rem;
 }
 
 #contact-panel-container {
@@ -709,9 +709,11 @@ ul li {
       font-size: small;
    }
 
-   .contact-panel {
-      height: 250rem;
+
+   #contact-section {
+      min-height: 60rem;
    }
+ 
 
 }
 
@@ -742,6 +744,10 @@ ul li {
       letter-spacing: normal;
    }
 
+   #contact-section {
+      min-height: 130rem;
+   }
+   
    #contact-panel-container{
       height:fit-content ;
    }
