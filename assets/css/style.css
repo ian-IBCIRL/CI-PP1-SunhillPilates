@@ -623,9 +623,9 @@ ul li {
    #menu {
       clear: left;
       float: left;
-      margin-left: 1.25rem;
-      margin-bottom: 1.25rem;
-      line-height: 1.50rem;
+      margin-left: .25rem;
+      margin-bottom: .25rem;
+      line-height: 2rem;
       width: 90%;
    }
 
@@ -673,10 +673,10 @@ ul li {
    #menu {
       clear: left;
       float: left;
-      margin-left: 2.25rem;
-      margin-bottom: 2.25rem;
-      line-height: 1.50rem;
-      width: 70%;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      line-height: 3rem;
+      width: 80%;
    }
 
    .sectionc, .sectionp, .sectionr {
@@ -725,14 +725,6 @@ ul li {
       padding: 0;
    }
 
-   #menu {
-      clear: left;
-      float: left;
-      margin-left: 2.25rem;
-      margin-bottom: 2.25rem;
-      line-height: 1.50rem;
-      width: 70%;
-   }
 
    header {
       height: 200px;
