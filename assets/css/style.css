@@ -17,7 +17,7 @@ body {
 
 .containerz {
    height: 100vh;
-   width: 100vw;
+   width: 97vw;
    overflow:auto;
    display: flex;
    flex-wrap: wrap;
