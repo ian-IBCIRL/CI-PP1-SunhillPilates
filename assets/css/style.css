@@ -395,8 +395,9 @@ ul li {
    background-repeat: repeat;
    background-size: contain;
    background-position: top;
-   width: 93%;
+   width: 95%;
    overflow: auto;
+   overflow-x: hidden;
    min-height: 60rem;
 }
 
