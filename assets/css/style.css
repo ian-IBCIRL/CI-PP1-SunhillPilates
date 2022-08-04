@@ -732,15 +732,11 @@ ul li {
 /* Screen sizes from 330px wide or below */
 @media screen and (max-width: 330px) {
    * {
-      margin: auto;
-      padding: 0;
-   }
-
-   .sectionc, .sectionp, .sectionr {
       margin: 0;
       padding: 0;
    }
 
+   
 
    header {
       height: 250px;
@@ -748,11 +744,6 @@ ul li {
    
    footer {
       height: 500px;
-   }
-
-   h1 {
-      font-size: 100%;
-      letter-spacing: normal;
    }
 
    #contact-section {
@@ -765,20 +756,6 @@ ul li {
 
    .contact-panel {
       height: 350rem;
-   }
-   /* anchor h1 styling */
-   a h1 {
-      text-align: left;
-      letter-spacing: 0.05em;
-   }
-
-   h2 {
-      font-size: small;
-   }
-
-   #welcome-text2{
-      margin: auto;
-      width: auto;
    }
 
 }
