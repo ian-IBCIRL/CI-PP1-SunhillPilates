@@ -348,7 +348,7 @@ footer a {
 #footer-center-panel {
    font-size: large;
    display: inline-block;
-   margin: 10px auto;
+   margin: 50px auto;
    text-align: left;
 }
 
@@ -387,9 +387,9 @@ ul li {
 
 
 .social-networks i {
-   font-size: 200%;
+   font-size: 100%;
    margin: 0.5rem;
-   color: rgb(194, 19, 233);
+   color: black;
 }
 
 
@@ -650,7 +650,7 @@ ul li {
    }
 
    #footer-center-panel {
-      float: left;
+      float:left;
       text-align: left;
       margin: 10px;
    }
