@@ -193,6 +193,7 @@ This page has all the navigation, footer and a button so that the user can quick
 -   [Convertio JPG to avif:](https://convertio.co/jpg-avif/) to convert JPG to avif images.
 -   [TinyPNG](https://tinypng.com/) to reduce the size of PNG images and improve Lighthouse score.
 -   [WAVE evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/) to test accessibility and other errors - very useful and easy to use.
+-   [WAVE results for site](https://wave.webaim.org/report#/https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/)
 
 ## Testing 
 * [Back to index](#index) 
@@ -201,7 +202,7 @@ This page has all the navigation, footer and a button so that the user can quick
 ### Validator Testing
 
 ### WAVE (Web Accessibility Evaluation Tool)
-Good results. FontAwesome Icons hide ARIA labels...
+Good results. No errors. Mimor contrast subjectivity on footer address in white.
 https://wave.webaim.org/report#/https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/index.html
 
 [HTML Validator](https://validator.w3.org/)
