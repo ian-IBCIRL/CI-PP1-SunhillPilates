@@ -73,8 +73,7 @@ body {
 
 
 #welcome-text2 {
-   letter-spacing: 0.1rem;
-   padding: 2.5rem;
+   padding: 1.5rem;
    background-color:  rgb(27, 67, 10);
    position: relative;
    top: 5%;
@@ -775,6 +774,11 @@ ul li {
 
    h2 {
       font-size: small;
+   }
+
+   #welcome-text2{
+      margin: auto;
+      width: auto;
    }
 
 }
