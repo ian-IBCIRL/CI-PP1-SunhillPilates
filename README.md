@@ -6,6 +6,17 @@
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
+My goals are to:
+1) develop a website which 
+2) informs the user about the main advantages of Pilates, while 
+3) also building trust in the instructors, and then 
+4) informing them of what they will need
+5) calling them to action in filling out the contact form to 
+6) arrange an initial class 1:1, or 
+7) in a classroom for experienced participants,
+8) with the option to view a video of a sample class,
+9) finally informing them of classroom hours, location and social media links.
+
 ![Mockup](assets/images/responsive.png)
 
 See here for the current website: https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/
@@ -16,7 +27,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **27th July 2022** 
+The last update to this file was: **4th August 2022** 
 
 ## Index
 * [User Experience (UX)](#user-experience-ux) 
@@ -96,21 +107,16 @@ This page has all the navigation, footer and a button so that the user can quick
 
         - Class Times - by putting the class times in the footer on each page allows the user to quickly and easily find this information and begin planning their participation.
 
-        - Address - the address of this business is important to the user in order for them to plan their use of the services, and get some idea of the quality of the facility and surrounding location for parking etc..
+        - Address - the address of this business is important to the user in order for them to plan their use of the services, and get some idea of the quality of the facility and surrounding location for parking - the address in the footer also links to Google Maps.
 
-        - Contact Us - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
-
-        - Return Home - the footer also has a link to go back to the top of the current page for ease and speed of navigation back to the top.
+        - Keep in contact - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
 
 
 - __How the features correlate with the User Stories__
 
     - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F0X 
     
-    ** CHANGE FOR PUSH.  
-    The chart below shows how the user stories correlate to features, showing features that support the user stories.
-
-	- insert chart here 
+    The charts in the [Testing visitor stories](#testing-visitor-stories) section of this document shows how the user stories correlate to features, showing features that support the user stories.
 
 ### Future Features 
 * [Back to index](#index) 
@@ -186,6 +192,7 @@ This page has all the navigation, footer and a button so that the user can quick
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons for visual cues.
 -   [Convertio JPG to avif:](https://convertio.co/jpg-avif/) to convert JPG to avif images.
 -   [TinyPNG](https://tinypng.com/) to reduce the size of PNG images and improve Lighthouse score.
+-   [WAVE evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/) to test accessibility and other errors - very useful and easy to use.
 
 ## Testing 
 * [Back to index](#index) 
@@ -231,11 +238,13 @@ No Error Found. This document validates as CSS level 3 + SVG !
     - Edge Version Version 103.0.1264.62 (Official build) (64-bit)
     - Safari on macOS Version 12.1.2 (12607.3.10)
     
-### Test Cases and Results
+## Testing visitor stories
+* [Back to index](#index) 
+* [Back to top of README.md](#about-my-project) 
 
 - This testing table shows test cases, the results and reference to the Feature ID which the test case proved:
 
-### Testing visitor stories
+### Test Cases and Results
 
 1. As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.
 
@@ -307,8 +316,9 @@ No Error Found. This document validates as CSS level 3 + SVG !
 | Footer      | Scroll down on any page | visitor can see the contact details of the business.   | PASS              |
 
 4. As a Returning Visitor, I want to be able to contact the instructor or business owner to ask questions or give feedback.
-| **Feature**  | **Action**                       | **Expected Result**                                                      | **Actual Result** |
-|--------------|----------------------------------|--------------------------------------------------------------------------|-------------------|
+
+| **Feature**  | **Action**                       | **Expected Result**                                                         | **Actual Result** |
+|--------------|----------------------------------|-----------------------------------------------------------------------------|-------------------|
 | Contact form | Click on "Contact" on the Navbar | visitor can quickly move to the contact section and see online contact form | PASS              |
 
 
@@ -388,7 +398,18 @@ No Error Found. This document validates as CSS level 3 + SVG !
 
 ### Known bugs
 
-- None so far.
+- None currently identified.
+Over the course of the project, 
+1) various layout issues with 
+    a) horizontal scrolling and 
+    b) differences between sections and asides were corrected, 
+    as shown in the repository commit history, and  
+2) some labeling of radiobutton input was corrected. 
+3) Other color contrast issues were also corrected as committed.
+4) image load performance and opacity issues were also resolved by testing different levels for learning.
+    a) related to this I did try using AVIF and WEBP formats.
+       But the Safari browser on Macs and iphones do not support that image format. 
+       So i reverted to PNG image format with file size reduction to help load times.
 
 ## Deployment
 * [Back to index](#index) 
@@ -425,14 +446,16 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
     - Elaine B Roche and her Code Institute project - https://github.com/elainebroche-dev/ms1-thrive
     - Code Institute tutors, mentors and colleagues in Slack channels.
     - Bootstrap documentation https://getbootstrap.com/docs/4.6/getting-started/introduction/ 
-    - Embedding video https://developers.facebook.com/docs/plugins/embedded-video-player/# 
+    - I didn't end up using bootstrap due to class naming overlap
+    - Embedding FB video which was less reliable https://developers.facebook.com/docs/plugins/embedded-video-player/# 
+    - Embedding Youtube video which I switched to for more reliability https://support.google.com/youtube/answer/171780?hl=en 
     - Posting to an iframe https://stackoverflow.com/questions/168455/how-do-you-post-to-an-iframe 
 
 -   ### Images
     - Social media icon images from https://github.com/techtycho/microsoft-homepage-clone/tree/master/img
     - Pilates images https://www.pexels.com/ 
     - favicon.ico generation https://favicon.io/favicon-generator/
-    - Colors from https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w 
+    - Colors from [Lilybug Design](https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w)
 
 -   ### Video
     - Social media video from https://www.facebook.com/watch/mindfulpilatesjune/ 
@@ -459,6 +482,9 @@ Updating `README.md` file with updated layout, color scheme and new pages.
 
 **27th July, 2022** 
 Updating section scrolling, header and footer sizing and responsiveness.
+
+**4th August, 2022** 
+Better layout, color contrast and fixing fieldset legend and labeling issues
 
 ------
 
