@@ -339,7 +339,7 @@ footer a {
    clear: both;
    text-align: center;
    padding: 1.8rem;
-   color: black;
+   color: white;
 }
 
 
@@ -401,7 +401,7 @@ ul li {
 .social-networks i {
    font-size: 100%;
    margin: 0.5rem;
-   color: black;
+   color: white;
 }
 
 
@@ -426,7 +426,7 @@ ul li {
    text-align: left;
    font-weight: 600;
    letter-spacing: 0.07rem;
-   color: black;
+   color: white;
    font-size: 100%;
    background-color: rgb(165, 115, 179);
    border-radius: 10px;
