@@ -202,7 +202,11 @@ This page has all the navigation, footer and a button so that the user can quick
 ### Validator Testing
 
 ### WAVE (Web Accessibility Evaluation Tool)
-Good results. No errors. Mimor contrast subjectivity on footer address in white.
+Good results. No errors. Managed to eliminate all alerts and contrast errors.
+<details><summary>WAVE Results</summary>
+<img src="./assets/images/wave results.JPG">
+</details>
+
 https://wave.webaim.org/report#/https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/index.html
 
 [HTML Validator](https://validator.w3.org/)
