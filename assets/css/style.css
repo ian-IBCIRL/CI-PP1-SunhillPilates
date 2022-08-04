@@ -281,7 +281,7 @@ h1 {
 h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.10em;
-   color: rgb(92, 13, 110);
+   color: white;
    text-align: center;
 }
 
@@ -307,7 +307,7 @@ a h1 {
 a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.20em;
-   color:  rgb(139, 173, 204);
+   color:  black;
 }
 
 footer {
