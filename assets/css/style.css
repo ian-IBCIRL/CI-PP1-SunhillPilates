@@ -433,7 +433,7 @@ ul li {
    float: left;
    padding: 1rem;
    opacity: 0.85;
-   height: 75rem;
+   height: 55rem;
 }
 
 #contact-panel-right {
@@ -441,7 +441,7 @@ ul li {
    opacity: 0.85;
    padding: 1rem;
    float: right;
-   height: 65rem;
+   height: 55rem;
 }
 
 .text-input {
