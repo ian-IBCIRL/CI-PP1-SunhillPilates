@@ -25,7 +25,7 @@ body {
 }
 
 
-/* hero image and text */
+/* hero image and text */ 
 #hero-outer {
    height: 120%;
    flex: 1 0 240px;
@@ -38,7 +38,7 @@ body {
 #hero-image {
    height: 100%;
    width: 100%;
-   background: url("../images/reformers.png") no-repeat center center;
+   background: url("../images/pexels-andrea-piacquadio-866021a.png") no-repeat center center;
    animation: hero-fade-in 6s;
    background-size: cover;
    /* animate home page */
@@ -57,13 +57,14 @@ body {
 
 
 #welcome-text {
-   letter-spacing: 0.25rem;
+   letter-spacing: 0.1rem;
    padding: 2.5rem;
    background-color: rgb(64, 47, 95);
    position: absolute;
-   top: 24%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   top: 5%;
+   margin: 5%;
+   width: 72%;
+
    text-align: center;
    color: white;
    text-transform: uppercase;
@@ -73,14 +74,12 @@ body {
 
 #welcome-text2 {
    letter-spacing: 0.1rem;
-   padding: 1.5rem;
+   padding: 2.5rem;
    background-color:  rgb(27, 67, 10);
    position: relative;
    top: 5%;
-   left: 5%;
-   right: 5%;
-   bottom: 5%;
-   width: 77%;
+   margin: 5%;
+   width: 72%;
    text-align: center;
    color: white;
    opacity: 85%;
@@ -96,7 +95,7 @@ body {
    color: white;
    font-size: 150%;
    line-height: 1;
-   padding-top: 1.9rem;
+
 }
 
 header {
@@ -153,7 +152,7 @@ nav {
 }
 
 #jclassheader {
-   background: url("../images/june1l.jpg") no-repeat top center;
+   background: url("../images/pexels-elina-fairytale-3822121a.png") no-repeat top center;
    height: 100%;
    position: relative;
    width: 100%;
@@ -199,7 +198,7 @@ aside {
    flex: 1 0 240px;
    color: black;
    background-color: rgb(165, 115, 179);
-   margin: 10px 0 0;
+   margin: 20px;
    overflow: hidden;
    font-size: large;
    background-size: cover;
@@ -304,7 +303,7 @@ footer {
    background-color: rgb(139, 173, 204);
    color: white;
    margin: 5px;
-   padding: 5px 0 0 0;
+   padding: 15px 0 0 0;
    letter-spacing: normal;
    list-style-type: none;
    bottom: 0;
@@ -320,29 +319,34 @@ footer a {
 
 #footer-group {
    text-align: center;
-   padding-top: 1.9rem;
+   padding-top: .5rem;
+   margin: 5px;
 }
 
 #disclaimer {
    clear: both;
    text-align: center;
    padding: 1.8rem;
+   color: black;
 }
 
 
 #footer-left-panel {
+   font-size: large;
    float: left;
    text-align: left;
    margin: 10px;
 }
 
 #footer-right-panel {
+   font-size: large;
    float: right;
    text-align: left;
    margin: 10px;
 }
 
 #footer-center-panel {
+   font-size: large;
    display: inline-block;
    margin: 10px auto;
    text-align: left;
