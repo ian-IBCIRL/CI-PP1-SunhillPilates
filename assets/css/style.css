@@ -707,7 +707,6 @@ ul li {
    }
 
    h1 {
-      font-size: 100%;
       letter-spacing: normal;
    }
 
@@ -715,10 +714,6 @@ ul li {
    a h1 {
       text-align: left;
       letter-spacing: 0.05em;
-   }
-
-   h2 {
-      font-size: small;
    }
 
 
