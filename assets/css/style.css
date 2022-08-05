@@ -63,7 +63,7 @@ body {
    position: absolute;
    top: 5%;
    margin: 5%;
-   width: 72%;
+   width: auto;
 
    text-align: center;
    color: white;
@@ -78,7 +78,7 @@ body {
    position: relative;
    top: 5%;
    margin: 5%;
-   width: 72%;
+   width:auto;
    text-align: center;
    color: white;
    opacity: 85%;
@@ -282,12 +282,9 @@ h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.10em;
    color: white;
-}
-
-header h2 {
-   margin 20px;
    text-align: center;
 }
+
 
 /* anchor styling */
 a {
