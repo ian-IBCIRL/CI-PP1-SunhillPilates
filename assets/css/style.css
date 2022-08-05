@@ -58,7 +58,7 @@ body {
 
 #welcome-text {
    letter-spacing: 0.1rem;
-   padding: 2.5rem;
+   padding: 1.5rem;
    background-color: rgb(64, 47, 95);
    position: absolute;
    top: 5%;
@@ -282,6 +282,10 @@ h2 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    letter-spacing: 0.10em;
    color: white;
+}
+
+header h2 {
+   margin 20px;
    text-align: center;
 }
 
@@ -306,7 +310,6 @@ a h1 {
 /* anchor h1 hover styling */
 a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   letter-spacing: 0.20em;
    color:  black;
 }
 
