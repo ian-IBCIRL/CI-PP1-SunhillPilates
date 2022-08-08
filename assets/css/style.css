@@ -38,7 +38,7 @@ body {
 #hero-image {
    height: 100%;
    width: 100%;
-   background: url("../images/pexels-andrea-piacquadio-866021a.png") no-repeat center center;
+   background: url("../images/pexels-andrea-piacquadio-866021a.avif") no-repeat center center;
    animation: hero-fade-in 6s;
    background-size: cover;
    /* animate home page */
@@ -164,7 +164,7 @@ nav {
 }
 
 #jclassheader {
-   background: url("../images/pexels-elina-fairytale-3822121a.png") no-repeat top center;
+   background: url("../images/pexels-elina-fairytale-3822121a.avif") no-repeat top center;
    height: 100%;
    position: relative;
    width: 100%;
@@ -205,7 +205,7 @@ section {
 
 
 aside {
-   background: url("../images/pexels-elina-fairytale-3822121a.png") no-repeat top center;
+   background: url("../images/pexels-elina-fairytale-3822121a.avif") no-repeat top center;
    height: 120%;
    flex: 1 0 240px;
    color: black;
