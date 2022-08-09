@@ -366,13 +366,19 @@ footer a {
 
 #hours-group {
    text-align: center;
+   margin:5%;
+   position: relative;
+   float: left;
+   left:10%;
 }
+
 
 #hours-center-panel {
    display:inherit;
    background-color: #694077;
    width: 90%;
-   margin: 10px;
+   margin: 10%;
+   padding: 20%;
    text-align: center;
    color: #76DB57;
    font-size: x-large;

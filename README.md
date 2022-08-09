@@ -503,7 +503,7 @@ I would add something like the following to a security/privacy page for the site
 "We are very aware of concerns around GDPR and data privacy and protection, so want you to know we understand the concerns and have worked hard to address those too. Our staff come from a medical health care background and so ensure comprehensive client confidentiality."
 
 **Why do we have data collection?**
-
+ 
 It will help us to calculate how many Pilates classes there should be at any one time, which greatly helps us with cost and capacity planning. 
 It will help us decide on the future direction of our services.
 
