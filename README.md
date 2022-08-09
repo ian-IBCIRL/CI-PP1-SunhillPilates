@@ -57,14 +57,15 @@ The last update to this file was: **9th August 2022**
 
     -   #### B. Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to be able to access and view the menu quickly and easily.
+        1. As a Returning Visitor, I want to be able to access and view the class types quickly and easily.
         2. As a Returning Visitor, I want to be able to check class times quickly and easily.
         3. As a Returning Visitor, I want to be able to contact the instructor or business owner to ask questions or give feedback.
         4. As a Returning Visitor, I want to be able to view videos of instruction.
 
     -   #### C. Frequent User Goals
         1. As a Frequent User, I want to be able to sign-up easily for more classes, discounts and check on my progress.
-
+        2. As the Business User, I want to be able to check on my site, classes and general look and feel of my site, with the option to send feedback.
+        
 ## Features
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
