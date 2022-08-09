@@ -75,18 +75,18 @@ The last update to this file was: **9th August 2022**
 
 -   __F01 Navigation Bar__
 
-    - The navigation bar has an initial consistent look and placement on the main page, with all three pages (when completed) of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Classes and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Classes and Contact links move to under the Logo.
+    - The navigation bar has an initial consistent look and placement on the main page, with all three main pages of the website ready to support easy navigation.  As well as the initial Home page, the site will include a simple Logo, Classes and Contact links and should be responsive on multiple screen sizes.  For smaller screens, such mobile devices, the Home, Classes and Contact links move to under the Logo.
 
 -   __F02 Hero Section & Business services__
     - The section on the main page is a first hook for the user. 
 It contains a short description of the business and classes,
 so that the user learns what classes are on offer.
-Buttons services of the business and additional information about the
+Buttons list the services of the business and additional information about the
 busines.
 This page also includes photos for additional visual effect.  
 
 - __F03 Classes__
-    - This page contains the business's list of classes and is divided into types of class. 
+    - This page contains the business's list of classes and is divided into types of class with some extra info for the prospective client.
 
 
 - __F04 Online Video__
@@ -115,7 +115,7 @@ This page has all the navigation, footer and a button so that the user can quick
 
 - __How the features correlate with the User Stories__
 
-    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F0X 
+    - The User Stories in the [User Experience (UX)](#user-experience-ux) part of this document are numbered and categorised into groups A (first time visitor), B (returning visitor) and C (frequent visitor).  The existing features are listed above as F01 to F07
     
     The charts in the [Testing visitor stories](#testing-visitor-stories) section of this document shows how the user stories correlate to features, showing features that support the user stories.
 
@@ -149,8 +149,9 @@ This page has all the navigation, footer and a button so that the user can quick
     - Colors from https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w 
 
 -   ### Colour Scheme
-    -  A palette will be chosen to convey a mindful and healthy mood. An image of the palette will be added here.
-
+    -  A palette will be chosen to convey a mindful and healthy mood. An image of the palette is <details><summary>here.</summary>
+    <img src="https://images.squarespace-cdn.com/content/v1/5c5b4b4be666690cda4394e9/1613953465473-0PE2XM11IPYTHWN7LNFQ/NZ+Color+Palettes-04.jpg?format=1500w">  
+</details>
 -   ### Typography
     -   Google Fonts are being used to import Oswald fonts into assests\css\style.css. 
 
