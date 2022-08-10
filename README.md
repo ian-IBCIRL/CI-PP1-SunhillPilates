@@ -244,7 +244,7 @@ No Error Found. This document validates as CSS level 3 + SVG !
     - Chrome Version 103.0.5060.134 (Official Build) (64-bit)
     - Firefox 102.0 release
     - Edge Version Version 103.0.1264.62 (Official build) (64-bit)
-    - Safari on macOS Version 12.1.2 (12607.3.10)
+    - Safari on macOS Version 12.1.2 (12607.3.10) and iPhone/iPad IOS 9.3, 10.3.4 and 15.6.
     
 ## Testing visitor stories
 * [Back to index](#index) 
