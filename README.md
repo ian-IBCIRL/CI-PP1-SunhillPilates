@@ -224,7 +224,7 @@ Good results all round
 </details>
 <details><summary>Pilates Form HTML Results</summary>
 <img src="./assets/images/html-validation-result-3.PNG">
-</details> The Pilates Form has some relative performance issues with the css load and the background image size.
+</details> The Pilates Form did have  some relative performance issues with the css load and the background image size but these have been resolved. Also iPhone IOS doesnt display avif or webp format images, although these do significantly improve Lighthouse results for the initial page load.
 
 ### 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
