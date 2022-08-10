@@ -331,8 +331,8 @@ footer a {
 
 #footer-group {
    text-align: center;
-   padding-top: .5rem;
-   margin: 5px;
+
+   margin: 15px;
 }
 
 #disclaimer {
@@ -368,20 +368,21 @@ footer a {
    text-align: center;
    margin:5%;
    position: relative;
-   float: left;
-   left:10%;
+   display: inline-block;
+   left:75%;
+   width: 100%;
 }
 
 
 #hours-center-panel {
-   display:inherit;
    background-color: #694077;
-   width: 90%;
+   width: 100%;
    margin: 10%;
    padding: 20%;
    text-align: center;
    color: #76DB57;
    font-size: xx-large;
+   float: right; 
 }
 
 
