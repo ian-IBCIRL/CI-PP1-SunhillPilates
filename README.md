@@ -17,7 +17,7 @@ My goals are to:
 8) with the option to view a video of a sample class,
 9) finally informing them of classroom hours, location and social media links.
 
-![Mockup](assets/images/responsive.png)
+![Mockup](assets/images/responsive2.JPG)
 
 See here for the current website: https://ian-ibcirl.github.io/CI-PP1-SunhillPilates/
 
