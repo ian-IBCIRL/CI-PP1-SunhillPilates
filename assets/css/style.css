@@ -18,14 +18,14 @@ body {
 .containerz {
    height: 100vh;
    width: 97vw;
-   overflow:auto;
-   overflow-x:hidden;
+   overflow: auto;
+   overflow-x: hidden;
    display: flex;
    flex-wrap: wrap;
 }
 
 
-/* hero image and text */ 
+/* hero image and text */
 #hero-outer {
    height: 120%;
    flex: 1 0 240px;
@@ -74,11 +74,11 @@ body {
 
 #welcome-text2 {
    padding: 1.5rem;
-   background-color:  rgb(27, 67, 10);
+   background-color: rgb(27, 67, 10);
    position: relative;
    top: 5%;
    margin: 5%;
-   width:auto;
+   width: auto;
    text-align: center;
    color: white;
    opacity: 85%;
@@ -111,7 +111,7 @@ nav {
 #refinfo {
    letter-spacing: 0.1rem;
    padding: 1.5rem;
-   background-color:  rgb(27, 67, 10);
+   background-color: rgb(27, 67, 10);
    position: relative;
    top: 5%;
    left: 5%;
@@ -126,7 +126,7 @@ nav {
 #needinfo {
    letter-spacing: 0.1rem;
    padding: 1.5rem;
-   background-color:  rgb(27, 67, 10);
+   background-color: rgb(27, 67, 10);
    position: relative;
    top: 5%;
    left: 5%;
@@ -141,7 +141,7 @@ nav {
 #needinfo2 {
    letter-spacing: 0.1rem;
    padding: .5rem;
-   background-color:  rgb(27, 67, 10);
+   background-color: rgb(27, 67, 10);
    position: relative;
    top: 2%;
    left: 15%;
@@ -169,7 +169,7 @@ nav {
    position: relative;
    width: 100%;
    background-size: cover;
- }
+}
 
 .sectionr {
    background: url("../images/reformers2l.png") no-repeat top center;
@@ -307,7 +307,7 @@ a h1 {
 /* anchor h1 hover styling */
 a h1:hover {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color:  black;
+   color: black;
 }
 
 footer {
@@ -331,7 +331,6 @@ footer a {
 
 #footer-group {
    text-align: center;
-
    margin: 15px;
 }
 
@@ -366,10 +365,10 @@ footer a {
 
 #hours-group {
    text-align: center;
-   margin:5%;
+   margin: 5%;
    position: relative;
    display: inline-block;
-   left:75%;
+   left: 75%;
    width: 100%;
 }
 
@@ -382,7 +381,7 @@ footer a {
    text-align: center;
    color: #76DB57;
    font-size: xx-large;
-   float: right; 
+   float: right;
 }
 
 
@@ -438,7 +437,7 @@ ul li {
    background-color: rgb(165, 115, 179);
    border-radius: 10px;
    padding: 1.8rem;
-   
+
 }
 
 .contact-panel h2 {
@@ -640,7 +639,9 @@ ul li {
       padding: 0;
    }
 
-   .sectionc, .sectionp, .sectionr {
+   .sectionc,
+   .sectionp,
+   .sectionr {
       margin: 0;
       padding: 0;
    }
@@ -669,7 +670,7 @@ ul li {
    }
 
    #footer-center-panel {
-      float:left;
+      float: left;
       text-align: left;
       margin: 10px;
    }
@@ -695,6 +696,7 @@ ul li {
       margin: 0;
       padding: 0;
    }
+
    #menu {
       clear: left;
       float: left;
@@ -704,7 +706,9 @@ ul li {
       width: 80%;
    }
 
-   .sectionc, .sectionp, .sectionr {
+   .sectionc,
+   .sectionp,
+   .sectionr {
       margin: auto;
       padding: 0;
    }
@@ -729,9 +733,9 @@ ul li {
    }
 
    #hours-group {
-      left:50%;
+      left: 50%;
    }
-    
+
    #hours-center-panel {
       font-size: x-large;
       margin: 5%;
@@ -747,14 +751,14 @@ ul li {
       padding: 0;
    }
 
-   needinfo2{
-      left:0;
+   needinfo2 {
+      left: 0;
    }
 
    header {
       height: 250px;
    }
-   
+
    footer {
       height: 500px;
    }
@@ -762,9 +766,9 @@ ul li {
    #contact-section {
       min-height: 130rem;
    }
-   
-   #contact-panel-container{
-      height:fit-content ;
+
+   #contact-panel-container {
+      height: fit-content;
    }
 
    .contact-panel {
@@ -772,9 +776,9 @@ ul li {
    }
 
    #hours-group {
-      left:25%;
+      left: 25%;
    }
-   
+
 
    #hours-center-panel {
       font-size: large;
