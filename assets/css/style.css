@@ -727,11 +727,17 @@ ul li {
    #contact-section {
       min-height: 60rem;
    }
- 
+
+   #hours-group {
+      left:50%;
+   }
+    
    #hours-center-panel {
       font-size: x-large;
+      margin: 5%;
+      padding: 10%;
    }
-   
+
 }
 
 /* Screen sizes from 330px wide or below */
@@ -765,8 +771,15 @@ ul li {
       height: 350rem;
    }
 
+   #hours-group {
+      left:25%;
+   }
+   
+
    #hours-center-panel {
       font-size: large;
+      margin: 2%;
+      padding: 5%;
    }
 
 }
