@@ -410,14 +410,16 @@ No Error Found. This document validates as CSS level 3 + SVG !
 Over the course of the project, 
 1) various layout issues with 
     a) horizontal scrolling and 
-    b) differences between sections and asides were corrected, 
-    as shown in the repository commit history, and  
+    b) differences between sections and asides were tested with Chrome DevTools, inspecting, changing values and correcting, as shown in the repository commit history, and  
 2) some labeling of radiobutton input was corrected. 
 3) Other color contrast issues were also corrected as committed.
 4) image load performance and opacity issues were also resolved by testing different levels for learning.
     a) related to this I did try using AVIF and WEBP formats.
        But the Safari browser on Macs and iphones do not support that image format. 
        So i reverted to PNG image format with file size reduction to help load times.
+5) Noticed a fieldset error in the footer of the home page compared to other pages and noticed the 
+    fieldset was outside the footer group, resulting in poor margins, so moved fieldset back inside 
+    footer-group.
 
 ## Deployment
 * [Back to index](#index) 
