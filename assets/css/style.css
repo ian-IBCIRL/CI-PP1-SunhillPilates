@@ -734,6 +734,9 @@ ul li {
 
    #hours-group {
       left: 50%;
+      margin: 5%;
+      padding: 5%;
+   
    }
 
    #hours-center-panel {
