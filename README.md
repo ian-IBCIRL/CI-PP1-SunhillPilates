@@ -6,7 +6,7 @@
 
 Welcome to my Code Institute Portfolio Project 1 covering HTML and CSS - Website for Sunhill Pilates.
 
-My goals are to:
+My goals have been to:
 1) develop a website which 
 2) informs the user about the main advantages of Pilates, while 
 3) also building trust in the instructors, and then 
@@ -27,7 +27,7 @@ Sunhill Pilates is a site that advertises and informs the audience about a ficti
 
 This file also contains some important information about the project, including Gitpod and the extensions we use. 
 
-The last update to this file was: **9th August 2022** 
+The last update to this file was: **17th August 2022** 
 
 ## Index
 * [User Experience (UX)](#user-experience-ux) 
@@ -110,7 +110,8 @@ This page has all the navigation, footer and a button so that the user can quick
 
         - Address - the address of this business is important to the user in order for them to plan their use of the services, and get some idea of the quality of the facility and surrounding location for parking - the address in the footer also links to Google Maps.
 
-        - Keep in contact - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
+        - Keep in contact - links to social media sites associated with the instructor and the training organisation make it easy for the user to keep connected, and see who else is participating.  The links will open in a new tab to allow easy navigation for the user. 
+        Sunhill Pilates is a ficticious company, so the links currently just go to the social media main websites for now.
 
 
 - __How the features correlate with the User Stories__
@@ -128,6 +129,9 @@ This page has all the navigation, footer and a button so that the user can quick
 
 - __Video Playback__
     - A 'Video Playback' page could be added to provide further sample videos and actual class content for clients on the go or working from home or under lockdown. Some content would only be accessible to registered clients with a current subscription.
+
+- __Progress Tracking__
+    - A client 'Progress Tracking' page could be added to provide further record of attendance, progress regarding actual class content for clients on the go or working from home or under lockdown. This content would only be accessible to registered clients with a current subscription.
 
 - __Privacy/Security__
     - A 'Security' page could be added to provide commonly expected assurances to clients. Some content would only be accessible to registered clients with a current subscription, so it would eventually me necessary to collect more identifying information for legitimate use cases, as expected by GDPR and other related legislation, in various jurisdictions. All subsequent information sent to the client will have the option to opt out, delete personally identifiable information, access account information for a subject access request, and delete the account on request.
@@ -250,7 +254,8 @@ No Error Found. This document validates as CSS level 3 + SVG !
 * [Back to index](#index) 
 * [Back to top of README.md](#about-my-project) 
 
-- This testing table shows test cases, the results and reference to the Feature ID which the test case proved:
+- Friends and family were able to access the website and provide valuable user experience feedback for call to action, accessibility/readability and content length.
+- This testing table shows test cases, the results and reference to the Feature which the test case proved:
 
 ### Test Cases and Results
 
@@ -411,12 +416,12 @@ Over the course of the project,
 1) various layout issues with 
     a) horizontal scrolling and 
     b) differences between sections and asides were tested with Chrome DevTools, inspecting, changing values and correcting, as shown in the repository commit history, and  
-2) some labeling of radiobutton input was corrected. 
+2) some labeling and fieldset grouping of radiobutton input were corrected. 
 3) Other color contrast issues were also corrected as committed.
 4) image load performance and opacity issues were also resolved by testing different levels for learning.
     a) related to this I did try using AVIF and WEBP formats.
        But the Safari browser on Macs and iphones do not support that image format. 
-       So i reverted to PNG image format with file size reduction to help load times.
+       So i reverted some images to PNG image format with file size reduction to help load times.
 5) Noticed a fieldset error in the footer of the home page compared to other pages and noticed the 
     fieldset was outside the footer group, resulting in poor margins, so moved fieldset back inside 
     footer-group.
@@ -494,7 +499,10 @@ Updating `README.md` file with updated layout, color scheme and new pages.
 Updating section scrolling, header and footer sizing and responsiveness.
 
 **9th August, 2022** 
-Better layout, color contrast and fixing fieldset legend and labeling issues
+Better layout, color contrast and fixing fieldset legend, image quality and labeling issues.
+
+**17th August, 2022** 
+Final review and adjustment of content length and resolving footer differences.
 
 ------
 
