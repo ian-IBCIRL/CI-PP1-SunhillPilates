@@ -533,19 +533,19 @@ ul li {
 }
 
 #needdetails {
-   text-align: center;
+   text-align: left;
    margin: 10px;
    display: block;
-   width: 95%;
+   width: auto;
    height: 500px;
    overflow: hidden;
 }
 
 #needdetails2 {
-   text-align: center;
+   text-align: left;
    margin: 10px;
    display: block;
-   width: 100%;
+   width: auto;
    height: 500px;
 
 }
