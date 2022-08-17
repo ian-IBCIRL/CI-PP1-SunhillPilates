@@ -132,10 +132,10 @@ nav {
    left: 5%;
    right: 5%;
    bottom: 5%;
-   text-align: left;
+   text-align: center;
    color: white;
    opacity: 75%;
-   width: auto;
+   width: 80%;
 }
 
 #needinfo2 {
@@ -146,10 +146,10 @@ nav {
    top: 2%;
    left: 15%;
 
-   text-align: left;
+   text-align: center;
    color: white;
    opacity: 75%;
-   width: auto;
+   width: 80%;
 }
 
 
